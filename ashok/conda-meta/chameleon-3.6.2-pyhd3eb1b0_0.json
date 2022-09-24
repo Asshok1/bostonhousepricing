@@ -1,0 +1,3352 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "setuptools"
+  ],
+  "extracted_package_dir": "C:\\Users\\Ashok\\anaconda3\\pkgs\\chameleon-3.6.2-pyhd3eb1b0_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/Chameleon-3.6.2.dist-info/INSTALLER",
+    "Lib/site-packages/Chameleon-3.6.2.dist-info/LICENSE.txt",
+    "Lib/site-packages/Chameleon-3.6.2.dist-info/METADATA",
+    "Lib/site-packages/Chameleon-3.6.2.dist-info/RECORD",
+    "Lib/site-packages/Chameleon-3.6.2.dist-info/REQUESTED",
+    "Lib/site-packages/Chameleon-3.6.2.dist-info/WHEEL",
+    "Lib/site-packages/Chameleon-3.6.2.dist-info/direct_url.json",
+    "Lib/site-packages/Chameleon-3.6.2.dist-info/top_level.txt",
+    "Lib/site-packages/chameleon/__init__.py",
+    "Lib/site-packages/chameleon/ast25.py",
+    "Lib/site-packages/chameleon/astutil.py",
+    "Lib/site-packages/chameleon/benchmark.py",
+    "Lib/site-packages/chameleon/codegen.py",
+    "Lib/site-packages/chameleon/compiler.py",
+    "Lib/site-packages/chameleon/config.py",
+    "Lib/site-packages/chameleon/exc.py",
+    "Lib/site-packages/chameleon/i18n.py",
+    "Lib/site-packages/chameleon/interfaces.py",
+    "Lib/site-packages/chameleon/loader.py",
+    "Lib/site-packages/chameleon/metal.py",
+    "Lib/site-packages/chameleon/namespaces.py",
+    "Lib/site-packages/chameleon/nodes.py",
+    "Lib/site-packages/chameleon/parser.py",
+    "Lib/site-packages/chameleon/program.py",
+    "Lib/site-packages/chameleon/py25.py",
+    "Lib/site-packages/chameleon/py26.py",
+    "Lib/site-packages/chameleon/tal.py",
+    "Lib/site-packages/chameleon/tales.py",
+    "Lib/site-packages/chameleon/template.py",
+    "Lib/site-packages/chameleon/tests/__init__.py",
+    "Lib/site-packages/chameleon/tests/inputs/001-interpolation.txt",
+    "Lib/site-packages/chameleon/tests/inputs/001-variable-scope.html",
+    "Lib/site-packages/chameleon/tests/inputs/001-variable-scope.pt",
+    "Lib/site-packages/chameleon/tests/inputs/001.xml",
+    "Lib/site-packages/chameleon/tests/inputs/002-repeat-scope.pt",
+    "Lib/site-packages/chameleon/tests/inputs/002.xml",
+    "Lib/site-packages/chameleon/tests/inputs/003-content.pt",
+    "Lib/site-packages/chameleon/tests/inputs/003.xml",
+    "Lib/site-packages/chameleon/tests/inputs/004-attributes.pt",
+    "Lib/site-packages/chameleon/tests/inputs/004.xml",
+    "Lib/site-packages/chameleon/tests/inputs/005-default.pt",
+    "Lib/site-packages/chameleon/tests/inputs/005.xml",
+    "Lib/site-packages/chameleon/tests/inputs/006-attribute-interpolation.pt",
+    "Lib/site-packages/chameleon/tests/inputs/006.xml",
+    "Lib/site-packages/chameleon/tests/inputs/007-content-interpolation.pt",
+    "Lib/site-packages/chameleon/tests/inputs/007.xml",
+    "Lib/site-packages/chameleon/tests/inputs/008-builtins.pt",
+    "Lib/site-packages/chameleon/tests/inputs/008.xml",
+    "Lib/site-packages/chameleon/tests/inputs/009-literals.pt",
+    "Lib/site-packages/chameleon/tests/inputs/009.xml",
+    "Lib/site-packages/chameleon/tests/inputs/010-structure.pt",
+    "Lib/site-packages/chameleon/tests/inputs/010.xml",
+    "Lib/site-packages/chameleon/tests/inputs/011-messages.pt",
+    "Lib/site-packages/chameleon/tests/inputs/011.xml",
+    "Lib/site-packages/chameleon/tests/inputs/012-translation.pt",
+    "Lib/site-packages/chameleon/tests/inputs/012.xml",
+    "Lib/site-packages/chameleon/tests/inputs/013-repeat-nested.pt",
+    "Lib/site-packages/chameleon/tests/inputs/013.xml",
+    "Lib/site-packages/chameleon/tests/inputs/014-repeat-nested-similar.pt",
+    "Lib/site-packages/chameleon/tests/inputs/014.xml",
+    "Lib/site-packages/chameleon/tests/inputs/015-translation-nested.pt",
+    "Lib/site-packages/chameleon/tests/inputs/015.xml",
+    "Lib/site-packages/chameleon/tests/inputs/016-explicit-translation.pt",
+    "Lib/site-packages/chameleon/tests/inputs/016.xml",
+    "Lib/site-packages/chameleon/tests/inputs/017-omit-tag.pt",
+    "Lib/site-packages/chameleon/tests/inputs/017.xml",
+    "Lib/site-packages/chameleon/tests/inputs/018-translation-nested-dynamic.pt",
+    "Lib/site-packages/chameleon/tests/inputs/018.xml",
+    "Lib/site-packages/chameleon/tests/inputs/019-replace.pt",
+    "Lib/site-packages/chameleon/tests/inputs/019.xml",
+    "Lib/site-packages/chameleon/tests/inputs/020-on-error.pt",
+    "Lib/site-packages/chameleon/tests/inputs/020.xml",
+    "Lib/site-packages/chameleon/tests/inputs/021-translation-domain.pt",
+    "Lib/site-packages/chameleon/tests/inputs/021.xml",
+    "Lib/site-packages/chameleon/tests/inputs/022-switch.pt",
+    "Lib/site-packages/chameleon/tests/inputs/022.xml",
+    "Lib/site-packages/chameleon/tests/inputs/023-condition.pt",
+    "Lib/site-packages/chameleon/tests/inputs/023.xml",
+    "Lib/site-packages/chameleon/tests/inputs/024-namespace-elements.pt",
+    "Lib/site-packages/chameleon/tests/inputs/024.xml",
+    "Lib/site-packages/chameleon/tests/inputs/025-repeat-whitespace.pt",
+    "Lib/site-packages/chameleon/tests/inputs/025.xml",
+    "Lib/site-packages/chameleon/tests/inputs/026-repeat-variable.pt",
+    "Lib/site-packages/chameleon/tests/inputs/026.xml",
+    "Lib/site-packages/chameleon/tests/inputs/027-attribute-replacement.pt",
+    "Lib/site-packages/chameleon/tests/inputs/027.xml",
+    "Lib/site-packages/chameleon/tests/inputs/028-attribute-toggle.pt",
+    "Lib/site-packages/chameleon/tests/inputs/028.xml",
+    "Lib/site-packages/chameleon/tests/inputs/029-attribute-ordering.pt",
+    "Lib/site-packages/chameleon/tests/inputs/029.xml",
+    "Lib/site-packages/chameleon/tests/inputs/030-repeat-tuples.pt",
+    "Lib/site-packages/chameleon/tests/inputs/030.xml",
+    "Lib/site-packages/chameleon/tests/inputs/031-namespace-with-tal.pt",
+    "Lib/site-packages/chameleon/tests/inputs/031.xml",
+    "Lib/site-packages/chameleon/tests/inputs/032-master-template.pt",
+    "Lib/site-packages/chameleon/tests/inputs/032.xml",
+    "Lib/site-packages/chameleon/tests/inputs/033-use-macro-trivial.pt",
+    "Lib/site-packages/chameleon/tests/inputs/033.xml",
+    "Lib/site-packages/chameleon/tests/inputs/034-use-template-as-macro.pt",
+    "Lib/site-packages/chameleon/tests/inputs/034.xml",
+    "Lib/site-packages/chameleon/tests/inputs/035-use-macro-with-fill-slot.pt",
+    "Lib/site-packages/chameleon/tests/inputs/035.xml",
+    "Lib/site-packages/chameleon/tests/inputs/036-use-macro-inherits-dynamic-scope.pt",
+    "Lib/site-packages/chameleon/tests/inputs/036.xml",
+    "Lib/site-packages/chameleon/tests/inputs/037-use-macro-local-variable-scope.pt",
+    "Lib/site-packages/chameleon/tests/inputs/037.xml",
+    "Lib/site-packages/chameleon/tests/inputs/038-use-macro-globals.pt",
+    "Lib/site-packages/chameleon/tests/inputs/038.xml",
+    "Lib/site-packages/chameleon/tests/inputs/039-globals.pt",
+    "Lib/site-packages/chameleon/tests/inputs/039.xml",
+    "Lib/site-packages/chameleon/tests/inputs/040-macro-using-template-symbol.pt",
+    "Lib/site-packages/chameleon/tests/inputs/040.xml",
+    "Lib/site-packages/chameleon/tests/inputs/041-translate-nested-names.pt",
+    "Lib/site-packages/chameleon/tests/inputs/041.xml",
+    "Lib/site-packages/chameleon/tests/inputs/042-use-macro-fill-footer.pt",
+    "Lib/site-packages/chameleon/tests/inputs/042.xml",
+    "Lib/site-packages/chameleon/tests/inputs/043-macro-nested-dynamic-vars.pt",
+    "Lib/site-packages/chameleon/tests/inputs/043.xml",
+    "Lib/site-packages/chameleon/tests/inputs/044-tuple-define.pt",
+    "Lib/site-packages/chameleon/tests/inputs/044.xml",
+    "Lib/site-packages/chameleon/tests/inputs/045-namespaces.pt",
+    "Lib/site-packages/chameleon/tests/inputs/045.xml",
+    "Lib/site-packages/chameleon/tests/inputs/046-extend-macro.pt",
+    "Lib/site-packages/chameleon/tests/inputs/046.xml",
+    "Lib/site-packages/chameleon/tests/inputs/047-use-extended-macro.pt",
+    "Lib/site-packages/chameleon/tests/inputs/047.xml",
+    "Lib/site-packages/chameleon/tests/inputs/048-use-extended-macro-fill-original.pt",
+    "Lib/site-packages/chameleon/tests/inputs/048.xml",
+    "Lib/site-packages/chameleon/tests/inputs/049-entities-in-attributes.pt",
+    "Lib/site-packages/chameleon/tests/inputs/049.xml",
+    "Lib/site-packages/chameleon/tests/inputs/050-define-macro-and-use-not-extend.pt",
+    "Lib/site-packages/chameleon/tests/inputs/050.xml",
+    "Lib/site-packages/chameleon/tests/inputs/051-use-non-extended-macro.pt",
+    "Lib/site-packages/chameleon/tests/inputs/051.xml",
+    "Lib/site-packages/chameleon/tests/inputs/052-i18n-domain-inside-filled-slot.pt",
+    "Lib/site-packages/chameleon/tests/inputs/052.xml",
+    "Lib/site-packages/chameleon/tests/inputs/053-special-characters-in-attributes.pt",
+    "Lib/site-packages/chameleon/tests/inputs/053.xml",
+    "Lib/site-packages/chameleon/tests/inputs/054-import-expression.pt",
+    "Lib/site-packages/chameleon/tests/inputs/054.xml",
+    "Lib/site-packages/chameleon/tests/inputs/055-attribute-fallback-to-dict-lookup.pt",
+    "Lib/site-packages/chameleon/tests/inputs/055.xml",
+    "Lib/site-packages/chameleon/tests/inputs/056-comment-attribute.pt",
+    "Lib/site-packages/chameleon/tests/inputs/056.xml",
+    "Lib/site-packages/chameleon/tests/inputs/057-order.pt",
+    "Lib/site-packages/chameleon/tests/inputs/057.xml",
+    "Lib/site-packages/chameleon/tests/inputs/058-script.pt",
+    "Lib/site-packages/chameleon/tests/inputs/058.xml",
+    "Lib/site-packages/chameleon/tests/inputs/059-embedded-javascript.pt",
+    "Lib/site-packages/chameleon/tests/inputs/059.xml",
+    "Lib/site-packages/chameleon/tests/inputs/060-macro-with-multiple-same-slots.pt",
+    "Lib/site-packages/chameleon/tests/inputs/060.xml",
+    "Lib/site-packages/chameleon/tests/inputs/061-fill-one-slot-but-two-defined.pt",
+    "Lib/site-packages/chameleon/tests/inputs/061.xml",
+    "Lib/site-packages/chameleon/tests/inputs/062-comments-and-expressions.pt",
+    "Lib/site-packages/chameleon/tests/inputs/062.xml",
+    "Lib/site-packages/chameleon/tests/inputs/063-continuation.pt",
+    "Lib/site-packages/chameleon/tests/inputs/063.xml",
+    "Lib/site-packages/chameleon/tests/inputs/064-tags-and-special-characters.pt",
+    "Lib/site-packages/chameleon/tests/inputs/064.xml",
+    "Lib/site-packages/chameleon/tests/inputs/065-use-macro-in-fill.pt",
+    "Lib/site-packages/chameleon/tests/inputs/065.xml",
+    "Lib/site-packages/chameleon/tests/inputs/066-load-expression.pt",
+    "Lib/site-packages/chameleon/tests/inputs/066.xml",
+    "Lib/site-packages/chameleon/tests/inputs/067-attribute-decode.pt",
+    "Lib/site-packages/chameleon/tests/inputs/067.xml",
+    "Lib/site-packages/chameleon/tests/inputs/068-less-than-greater-than-in-attributes.pt",
+    "Lib/site-packages/chameleon/tests/inputs/068.xml",
+    "Lib/site-packages/chameleon/tests/inputs/069-translation-domain-and-macro.pt",
+    "Lib/site-packages/chameleon/tests/inputs/069.xml",
+    "Lib/site-packages/chameleon/tests/inputs/070-translation-domain-and-use-macro.pt",
+    "Lib/site-packages/chameleon/tests/inputs/070.xml",
+    "Lib/site-packages/chameleon/tests/inputs/071-html-attribute-defaults.pt",
+    "Lib/site-packages/chameleon/tests/inputs/071.xml",
+    "Lib/site-packages/chameleon/tests/inputs/072-repeat-interpolation.pt",
+    "Lib/site-packages/chameleon/tests/inputs/072.xml",
+    "Lib/site-packages/chameleon/tests/inputs/073-utf8-encoded.pt",
+    "Lib/site-packages/chameleon/tests/inputs/073.xml",
+    "Lib/site-packages/chameleon/tests/inputs/074-encoded-template.pt",
+    "Lib/site-packages/chameleon/tests/inputs/074.xml",
+    "Lib/site-packages/chameleon/tests/inputs/075-nested-macros.pt",
+    "Lib/site-packages/chameleon/tests/inputs/075.xml",
+    "Lib/site-packages/chameleon/tests/inputs/076-nested-macro-override.pt",
+    "Lib/site-packages/chameleon/tests/inputs/076.xml",
+    "Lib/site-packages/chameleon/tests/inputs/077-i18n-attributes.pt",
+    "Lib/site-packages/chameleon/tests/inputs/077.xml",
+    "Lib/site-packages/chameleon/tests/inputs/078-tags-and-newlines.pt",
+    "Lib/site-packages/chameleon/tests/inputs/078.xml",
+    "Lib/site-packages/chameleon/tests/inputs/079-implicit-i18n.pt",
+    "Lib/site-packages/chameleon/tests/inputs/079.xml",
+    "Lib/site-packages/chameleon/tests/inputs/080-xmlns-namespace-on-tal.pt",
+    "Lib/site-packages/chameleon/tests/inputs/080.xml",
+    "Lib/site-packages/chameleon/tests/inputs/081-load-spec.pt",
+    "Lib/site-packages/chameleon/tests/inputs/081.xml",
+    "Lib/site-packages/chameleon/tests/inputs/082-load-spec-computed.pt",
+    "Lib/site-packages/chameleon/tests/inputs/082.xml",
+    "Lib/site-packages/chameleon/tests/inputs/083-template-dict-to-macro.pt",
+    "Lib/site-packages/chameleon/tests/inputs/083.xml",
+    "Lib/site-packages/chameleon/tests/inputs/084-interpolation-in-cdata.pt",
+    "Lib/site-packages/chameleon/tests/inputs/084.xml",
+    "Lib/site-packages/chameleon/tests/inputs/085-nested-translation.pt",
+    "Lib/site-packages/chameleon/tests/inputs/085.xml",
+    "Lib/site-packages/chameleon/tests/inputs/086-self-closing.pt",
+    "Lib/site-packages/chameleon/tests/inputs/086.xml",
+    "Lib/site-packages/chameleon/tests/inputs/087-code-blocks.pt",
+    "Lib/site-packages/chameleon/tests/inputs/087.xml",
+    "Lib/site-packages/chameleon/tests/inputs/088-python-newlines.pt",
+    "Lib/site-packages/chameleon/tests/inputs/088.xml",
+    "Lib/site-packages/chameleon/tests/inputs/089-load-fallback.pt",
+    "Lib/site-packages/chameleon/tests/inputs/089.xml",
+    "Lib/site-packages/chameleon/tests/inputs/090-tuple-expression.pt",
+    "Lib/site-packages/chameleon/tests/inputs/090.xml",
+    "Lib/site-packages/chameleon/tests/inputs/091-repeat-none.pt",
+    "Lib/site-packages/chameleon/tests/inputs/091.xml",
+    "Lib/site-packages/chameleon/tests/inputs/092.xml",
+    "Lib/site-packages/chameleon/tests/inputs/093.xml",
+    "Lib/site-packages/chameleon/tests/inputs/094.xml",
+    "Lib/site-packages/chameleon/tests/inputs/095.xml",
+    "Lib/site-packages/chameleon/tests/inputs/096.xml",
+    "Lib/site-packages/chameleon/tests/inputs/097.xml",
+    "Lib/site-packages/chameleon/tests/inputs/098.xml",
+    "Lib/site-packages/chameleon/tests/inputs/099.xml",
+    "Lib/site-packages/chameleon/tests/inputs/100.xml",
+    "Lib/site-packages/chameleon/tests/inputs/101-unclosed-tags.html",
+    "Lib/site-packages/chameleon/tests/inputs/101.xml",
+    "Lib/site-packages/chameleon/tests/inputs/102-unquoted-attributes.html",
+    "Lib/site-packages/chameleon/tests/inputs/102.xml",
+    "Lib/site-packages/chameleon/tests/inputs/103-simple-attribute.html",
+    "Lib/site-packages/chameleon/tests/inputs/103.xml",
+    "Lib/site-packages/chameleon/tests/inputs/104.xml",
+    "Lib/site-packages/chameleon/tests/inputs/105.xml",
+    "Lib/site-packages/chameleon/tests/inputs/106.xml",
+    "Lib/site-packages/chameleon/tests/inputs/107.xml",
+    "Lib/site-packages/chameleon/tests/inputs/108.xml",
+    "Lib/site-packages/chameleon/tests/inputs/109.xml",
+    "Lib/site-packages/chameleon/tests/inputs/110.xml",
+    "Lib/site-packages/chameleon/tests/inputs/111.xml",
+    "Lib/site-packages/chameleon/tests/inputs/112.xml",
+    "Lib/site-packages/chameleon/tests/inputs/113.xml",
+    "Lib/site-packages/chameleon/tests/inputs/114.xml",
+    "Lib/site-packages/chameleon/tests/inputs/115.xml",
+    "Lib/site-packages/chameleon/tests/inputs/116.xml",
+    "Lib/site-packages/chameleon/tests/inputs/117.xml",
+    "Lib/site-packages/chameleon/tests/inputs/118.xml",
+    "Lib/site-packages/chameleon/tests/inputs/119.xml",
+    "Lib/site-packages/chameleon/tests/inputs/120-translation-context.pt",
+    "Lib/site-packages/chameleon/tests/inputs/121-translation-comment.pt",
+    "Lib/site-packages/chameleon/tests/inputs/122-translation-ignore.pt",
+    "Lib/site-packages/chameleon/tests/inputs/123-html5-data-attributes.pt",
+    "Lib/site-packages/chameleon/tests/inputs/124-translation-target.pt",
+    "Lib/site-packages/chameleon/tests/inputs/125-macro-translation-ordering.pt",
+    "Lib/site-packages/chameleon/tests/inputs/126-define-escaping.pt",
+    "Lib/site-packages/chameleon/tests/inputs/238-macroname.pt",
+    "Lib/site-packages/chameleon/tests/inputs/greeting.pt",
+    "Lib/site-packages/chameleon/tests/inputs/hello_world.pt",
+    "Lib/site-packages/chameleon/tests/inputs/hello_world.txt",
+    "Lib/site-packages/chameleon/tests/inputs/multinode-implicit-i18n.pt",
+    "Lib/site-packages/chameleon/tests/outputs/001.html",
+    "Lib/site-packages/chameleon/tests/outputs/001.pt",
+    "Lib/site-packages/chameleon/tests/outputs/001.txt",
+    "Lib/site-packages/chameleon/tests/outputs/002.pt",
+    "Lib/site-packages/chameleon/tests/outputs/003.pt",
+    "Lib/site-packages/chameleon/tests/outputs/004.pt",
+    "Lib/site-packages/chameleon/tests/outputs/005.pt",
+    "Lib/site-packages/chameleon/tests/outputs/006.pt",
+    "Lib/site-packages/chameleon/tests/outputs/007.pt",
+    "Lib/site-packages/chameleon/tests/outputs/008.pt",
+    "Lib/site-packages/chameleon/tests/outputs/009.pt",
+    "Lib/site-packages/chameleon/tests/outputs/010.pt",
+    "Lib/site-packages/chameleon/tests/outputs/011-en.pt",
+    "Lib/site-packages/chameleon/tests/outputs/011.pt",
+    "Lib/site-packages/chameleon/tests/outputs/012-en.pt",
+    "Lib/site-packages/chameleon/tests/outputs/012.pt",
+    "Lib/site-packages/chameleon/tests/outputs/013.pt",
+    "Lib/site-packages/chameleon/tests/outputs/014.pt",
+    "Lib/site-packages/chameleon/tests/outputs/015-en.pt",
+    "Lib/site-packages/chameleon/tests/outputs/015.pt",
+    "Lib/site-packages/chameleon/tests/outputs/016-en.pt",
+    "Lib/site-packages/chameleon/tests/outputs/016.pt",
+    "Lib/site-packages/chameleon/tests/outputs/017.pt",
+    "Lib/site-packages/chameleon/tests/outputs/018-en.pt",
+    "Lib/site-packages/chameleon/tests/outputs/018.pt",
+    "Lib/site-packages/chameleon/tests/outputs/019.pt",
+    "Lib/site-packages/chameleon/tests/outputs/020.pt",
+    "Lib/site-packages/chameleon/tests/outputs/021-en.pt",
+    "Lib/site-packages/chameleon/tests/outputs/021.pt",
+    "Lib/site-packages/chameleon/tests/outputs/022.pt",
+    "Lib/site-packages/chameleon/tests/outputs/023.pt",
+    "Lib/site-packages/chameleon/tests/outputs/024.pt",
+    "Lib/site-packages/chameleon/tests/outputs/025.pt",
+    "Lib/site-packages/chameleon/tests/outputs/026.pt",
+    "Lib/site-packages/chameleon/tests/outputs/027.pt",
+    "Lib/site-packages/chameleon/tests/outputs/028.pt",
+    "Lib/site-packages/chameleon/tests/outputs/029.pt",
+    "Lib/site-packages/chameleon/tests/outputs/030.pt",
+    "Lib/site-packages/chameleon/tests/outputs/031.pt",
+    "Lib/site-packages/chameleon/tests/outputs/032.pt",
+    "Lib/site-packages/chameleon/tests/outputs/033.pt",
+    "Lib/site-packages/chameleon/tests/outputs/034.pt",
+    "Lib/site-packages/chameleon/tests/outputs/035.pt",
+    "Lib/site-packages/chameleon/tests/outputs/036.pt",
+    "Lib/site-packages/chameleon/tests/outputs/037.pt",
+    "Lib/site-packages/chameleon/tests/outputs/038.pt",
+    "Lib/site-packages/chameleon/tests/outputs/039.pt",
+    "Lib/site-packages/chameleon/tests/outputs/040.pt",
+    "Lib/site-packages/chameleon/tests/outputs/041.pt",
+    "Lib/site-packages/chameleon/tests/outputs/042.pt",
+    "Lib/site-packages/chameleon/tests/outputs/043.pt",
+    "Lib/site-packages/chameleon/tests/outputs/044.pt",
+    "Lib/site-packages/chameleon/tests/outputs/045.pt",
+    "Lib/site-packages/chameleon/tests/outputs/046.pt",
+    "Lib/site-packages/chameleon/tests/outputs/047.pt",
+    "Lib/site-packages/chameleon/tests/outputs/048.pt",
+    "Lib/site-packages/chameleon/tests/outputs/049.pt",
+    "Lib/site-packages/chameleon/tests/outputs/050.pt",
+    "Lib/site-packages/chameleon/tests/outputs/051.pt",
+    "Lib/site-packages/chameleon/tests/outputs/052.pt",
+    "Lib/site-packages/chameleon/tests/outputs/053.pt",
+    "Lib/site-packages/chameleon/tests/outputs/054.pt",
+    "Lib/site-packages/chameleon/tests/outputs/055.pt",
+    "Lib/site-packages/chameleon/tests/outputs/056.pt",
+    "Lib/site-packages/chameleon/tests/outputs/057.pt",
+    "Lib/site-packages/chameleon/tests/outputs/058.pt",
+    "Lib/site-packages/chameleon/tests/outputs/059.pt",
+    "Lib/site-packages/chameleon/tests/outputs/060.pt",
+    "Lib/site-packages/chameleon/tests/outputs/061.pt",
+    "Lib/site-packages/chameleon/tests/outputs/062.pt",
+    "Lib/site-packages/chameleon/tests/outputs/063.pt",
+    "Lib/site-packages/chameleon/tests/outputs/064.pt",
+    "Lib/site-packages/chameleon/tests/outputs/065.pt",
+    "Lib/site-packages/chameleon/tests/outputs/066.pt",
+    "Lib/site-packages/chameleon/tests/outputs/067.pt",
+    "Lib/site-packages/chameleon/tests/outputs/068.pt",
+    "Lib/site-packages/chameleon/tests/outputs/069-en.pt",
+    "Lib/site-packages/chameleon/tests/outputs/069.pt",
+    "Lib/site-packages/chameleon/tests/outputs/070-en.pt",
+    "Lib/site-packages/chameleon/tests/outputs/070.pt",
+    "Lib/site-packages/chameleon/tests/outputs/071.pt",
+    "Lib/site-packages/chameleon/tests/outputs/072.pt",
+    "Lib/site-packages/chameleon/tests/outputs/073.pt",
+    "Lib/site-packages/chameleon/tests/outputs/074.pt",
+    "Lib/site-packages/chameleon/tests/outputs/075.pt",
+    "Lib/site-packages/chameleon/tests/outputs/076.pt",
+    "Lib/site-packages/chameleon/tests/outputs/077-en.pt",
+    "Lib/site-packages/chameleon/tests/outputs/077.pt",
+    "Lib/site-packages/chameleon/tests/outputs/078.pt",
+    "Lib/site-packages/chameleon/tests/outputs/079-en.pt",
+    "Lib/site-packages/chameleon/tests/outputs/079.pt",
+    "Lib/site-packages/chameleon/tests/outputs/080.pt",
+    "Lib/site-packages/chameleon/tests/outputs/081.pt",
+    "Lib/site-packages/chameleon/tests/outputs/082.pt",
+    "Lib/site-packages/chameleon/tests/outputs/083.pt",
+    "Lib/site-packages/chameleon/tests/outputs/084.pt",
+    "Lib/site-packages/chameleon/tests/outputs/085-en.pt",
+    "Lib/site-packages/chameleon/tests/outputs/085.pt",
+    "Lib/site-packages/chameleon/tests/outputs/086.pt",
+    "Lib/site-packages/chameleon/tests/outputs/087.pt",
+    "Lib/site-packages/chameleon/tests/outputs/088.pt",
+    "Lib/site-packages/chameleon/tests/outputs/089.pt",
+    "Lib/site-packages/chameleon/tests/outputs/090.pt",
+    "Lib/site-packages/chameleon/tests/outputs/091.pt",
+    "Lib/site-packages/chameleon/tests/outputs/101.html",
+    "Lib/site-packages/chameleon/tests/outputs/102.html",
+    "Lib/site-packages/chameleon/tests/outputs/103.html",
+    "Lib/site-packages/chameleon/tests/outputs/120-en.pt",
+    "Lib/site-packages/chameleon/tests/outputs/120.pt",
+    "Lib/site-packages/chameleon/tests/outputs/121.pt",
+    "Lib/site-packages/chameleon/tests/outputs/122.pt",
+    "Lib/site-packages/chameleon/tests/outputs/123.pt",
+    "Lib/site-packages/chameleon/tests/outputs/124-en.pt",
+    "Lib/site-packages/chameleon/tests/outputs/124.pt",
+    "Lib/site-packages/chameleon/tests/outputs/125.pt",
+    "Lib/site-packages/chameleon/tests/outputs/126.pt",
+    "Lib/site-packages/chameleon/tests/outputs/238.pt",
+    "Lib/site-packages/chameleon/tests/outputs/greeting.pt",
+    "Lib/site-packages/chameleon/tests/outputs/hello_world.pt",
+    "Lib/site-packages/chameleon/tests/outputs/hello_world.txt",
+    "Lib/site-packages/chameleon/tests/outputs/multinode-en.pt",
+    "Lib/site-packages/chameleon/tests/outputs/multinode.pt",
+    "Lib/site-packages/chameleon/tests/test_doctests.py",
+    "Lib/site-packages/chameleon/tests/test_exc.py",
+    "Lib/site-packages/chameleon/tests/test_loader.py",
+    "Lib/site-packages/chameleon/tests/test_parser.py",
+    "Lib/site-packages/chameleon/tests/test_sniffing.py",
+    "Lib/site-packages/chameleon/tests/test_templates.py",
+    "Lib/site-packages/chameleon/tests/test_tokenizer.py",
+    "Lib/site-packages/chameleon/tokenize.py",
+    "Lib/site-packages/chameleon/utils.py",
+    "Lib/site-packages/chameleon/zpt/__init__.py",
+    "Lib/site-packages/chameleon/zpt/loader.py",
+    "Lib/site-packages/chameleon/zpt/program.py",
+    "Lib/site-packages/chameleon/zpt/template.py",
+    ".nonadmin",
+    "Lib/site-packages/chameleon/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/ast25.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/astutil.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/benchmark.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/codegen.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/compiler.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/config.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/exc.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/i18n.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/interfaces.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/loader.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/metal.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/namespaces.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/nodes.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/parser.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/program.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/py25.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/py26.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/tal.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/tales.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/template.cpython-37.pyc",
+    "Lib/site-packages/chameleon/tests/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/chameleon/tests/__pycache__/test_doctests.cpython-37.pyc",
+    "Lib/site-packages/chameleon/tests/__pycache__/test_exc.cpython-37.pyc",
+    "Lib/site-packages/chameleon/tests/__pycache__/test_loader.cpython-37.pyc",
+    "Lib/site-packages/chameleon/tests/__pycache__/test_parser.cpython-37.pyc",
+    "Lib/site-packages/chameleon/tests/__pycache__/test_sniffing.cpython-37.pyc",
+    "Lib/site-packages/chameleon/tests/__pycache__/test_templates.cpython-37.pyc",
+    "Lib/site-packages/chameleon/tests/__pycache__/test_tokenizer.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/tokenize.cpython-37.pyc",
+    "Lib/site-packages/chameleon/__pycache__/utils.cpython-37.pyc",
+    "Lib/site-packages/chameleon/zpt/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/chameleon/zpt/__pycache__/loader.cpython-37.pyc",
+    "Lib/site-packages/chameleon/zpt/__pycache__/program.cpython-37.pyc",
+    "Lib/site-packages/chameleon/zpt/__pycache__/template.cpython-37.pyc"
+  ],
+  "fn": "chameleon-3.6.2-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "7c005f17e3e9e1c518300dca1c77dcdd",
+  "license": "Repoze",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\Ashok\\anaconda3\\pkgs\\chameleon-3.6.2-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "bf7bbdd230790bc9520f28902fad1c4d",
+  "name": "chameleon",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\Ashok\\anaconda3\\pkgs\\chameleon-3.6.2-pyhd3eb1b0_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/Chameleon-3.6.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/Chameleon-3.6.2.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "6bf0c6788d5d5dec2b36ecf821127b46e3908d17878b477bf4cd7a9f84c9b201",
+        "sha256_in_prefix": "6bf0c6788d5d5dec2b36ecf821127b46e3908d17878b477bf4cd7a9f84c9b201",
+        "size_in_bytes": 8499
+      },
+      {
+        "_path": "site-packages/Chameleon-3.6.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "7bea005f1b7e66ecb695e4d1fc5b7f8880bd4201df975dd0ee9c51152059db33",
+        "sha256_in_prefix": "7bea005f1b7e66ecb695e4d1fc5b7f8880bd4201df975dd0ee9c51152059db33",
+        "size_in_bytes": 945
+      },
+      {
+        "_path": "site-packages/Chameleon-3.6.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "57426a10f386cf5a3a928f1a06c9f762822c31b668f7e5481447ebd2db2d2c81",
+        "sha256_in_prefix": "57426a10f386cf5a3a928f1a06c9f762822c31b668f7e5481447ebd2db2d2c81",
+        "size_in_bytes": 37453
+      },
+      {
+        "_path": "site-packages/Chameleon-3.6.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/Chameleon-3.6.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "sha256_in_prefix": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/Chameleon-3.6.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3b1bf3f26eb571c72e7307926b8e43179e5d14dfb726c54eda6c21d4673846e7",
+        "sha256_in_prefix": "3b1bf3f26eb571c72e7307926b8e43179e5d14dfb726c54eda6c21d4673846e7",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "site-packages/Chameleon-3.6.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f29d779080b9f90c637acbacfc5b8eda11dd2614446663d623177fb9e1052349",
+        "sha256_in_prefix": "f29d779080b9f90c637acbacfc5b8eda11dd2614446663d623177fb9e1052349",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/chameleon/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5457dd40c7c7a6b3bb8796457855e0e7714914e951cc232571c535ebe3ff6ca9",
+        "sha256_in_prefix": "5457dd40c7c7a6b3bb8796457855e0e7714914e951cc232571c535ebe3ff6ca9",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "site-packages/chameleon/ast25.py",
+        "path_type": "hardlink",
+        "sha256": "c4bef6623fae51e08a79a57d85a04aef0a5dd4c1e3acf79f1062a8a1df7de84c",
+        "sha256_in_prefix": "c4bef6623fae51e08a79a57d85a04aef0a5dd4c1e3acf79f1062a8a1df7de84c",
+        "size_in_bytes": 4255
+      },
+      {
+        "_path": "site-packages/chameleon/astutil.py",
+        "path_type": "hardlink",
+        "sha256": "3cecfc5fcce81980d5a02c024bcf82eaf511d677af1b548c223a22589869f722",
+        "sha256_in_prefix": "3cecfc5fcce81980d5a02c024bcf82eaf511d677af1b548c223a22589869f722",
+        "size_in_bytes": 29272
+      },
+      {
+        "_path": "site-packages/chameleon/benchmark.py",
+        "path_type": "hardlink",
+        "sha256": "6bdece488a18603376212a35be23a2bb71650549fe2f4c49217dac1e955203e1",
+        "sha256_in_prefix": "6bdece488a18603376212a35be23a2bb71650549fe2f4c49217dac1e955203e1",
+        "size_in_bytes": 15138
+      },
+      {
+        "_path": "site-packages/chameleon/codegen.py",
+        "path_type": "hardlink",
+        "sha256": "150a7fe55555abb50fc2842bc2e1c0de2b4373b2f08a3af99054ff03c022ce43",
+        "sha256_in_prefix": "150a7fe55555abb50fc2842bc2e1c0de2b4373b2f08a3af99054ff03c022ce43",
+        "size_in_bytes": 6560
+      },
+      {
+        "_path": "site-packages/chameleon/compiler.py",
+        "path_type": "hardlink",
+        "sha256": "395f235e077689d58e28d84fa3cfb5246de79a5a7c25fe7cac3937b5eb322079",
+        "sha256_in_prefix": "395f235e077689d58e28d84fa3cfb5246de79a5a7c25fe7cac3937b5eb322079",
+        "size_in_bytes": 53930
+      },
+      {
+        "_path": "site-packages/chameleon/config.py",
+        "path_type": "hardlink",
+        "sha256": "01752568f91b4d3cde101ebb8152a907d952202d4f37e4ac05ff59761edb8281",
+        "sha256_in_prefix": "01752568f91b4d3cde101ebb8152a907d952202d4f37e4ac05ff59761edb8281",
+        "size_in_bytes": 1884
+      },
+      {
+        "_path": "site-packages/chameleon/exc.py",
+        "path_type": "hardlink",
+        "sha256": "ef362d2b4cdb1e562e1ba0e38ab9451d0aa68c0a1dae30616107e533f4c9f666",
+        "sha256_in_prefix": "ef362d2b4cdb1e562e1ba0e38ab9451d0aa68c0a1dae30616107e533f4c9f666",
+        "size_in_bytes": 8940
+      },
+      {
+        "_path": "site-packages/chameleon/i18n.py",
+        "path_type": "hardlink",
+        "sha256": "967e80ea3f48385e34fdb65d3058106c472ee38a4bcd83d1d00dac12a176ee34",
+        "sha256_in_prefix": "967e80ea3f48385e34fdb65d3058106c472ee38a4bcd83d1d00dac12a176ee34",
+        "size_in_bytes": 3780
+      },
+      {
+        "_path": "site-packages/chameleon/interfaces.py",
+        "path_type": "hardlink",
+        "sha256": "9c2d4d857813b8c7699bd57fe17e653cfd791a070db9b903157c2e8e6f785325",
+        "sha256_in_prefix": "9c2d4d857813b8c7699bd57fe17e653cfd791a070db9b903157c2e8e6f785325",
+        "size_in_bytes": 2707
+      },
+      {
+        "_path": "site-packages/chameleon/loader.py",
+        "path_type": "hardlink",
+        "sha256": "73a52a424956b037546d01e636b06e935977a85e243d58f32ef4e70ad08d271c",
+        "sha256_in_prefix": "73a52a424956b037546d01e636b06e935977a85e243d58f32ef4e70ad08d271c",
+        "size_in_bytes": 5495
+      },
+      {
+        "_path": "site-packages/chameleon/metal.py",
+        "path_type": "hardlink",
+        "sha256": "e898ceb06d7536a5f2d2d14765ce677869716fdff11099d29261ef0e889e2195",
+        "sha256_in_prefix": "e898ceb06d7536a5f2d2d14765ce677869716fdff11099d29261ef0e889e2195",
+        "size_in_bytes": 790
+      },
+      {
+        "_path": "site-packages/chameleon/namespaces.py",
+        "path_type": "hardlink",
+        "sha256": "72e26e8745fdf25a33e8c4faae2fd222dacf86b16f7a1e6bad37ac59fc452c52",
+        "sha256_in_prefix": "72e26e8745fdf25a33e8c4faae2fd222dacf86b16f7a1e6bad37ac59fc452c52",
+        "size_in_bytes": 405
+      },
+      {
+        "_path": "site-packages/chameleon/nodes.py",
+        "path_type": "hardlink",
+        "sha256": "ea667a34315d9e6ccda672ea85492c4538afd09e56e822aff382ca0231bf930b",
+        "sha256_in_prefix": "ea667a34315d9e6ccda672ea85492c4538afd09e56e822aff382ca0231bf930b",
+        "size_in_bytes": 3915
+      },
+      {
+        "_path": "site-packages/chameleon/parser.py",
+        "path_type": "hardlink",
+        "sha256": "0702ba8a61c884fef6433d1aff07341208b8d147a9db01fc26de7c2439772204",
+        "sha256_in_prefix": "0702ba8a61c884fef6433d1aff07341208b8d147a9db01fc26de7c2439772204",
+        "size_in_bytes": 7447
+      },
+      {
+        "_path": "site-packages/chameleon/program.py",
+        "path_type": "hardlink",
+        "sha256": "0cea6b1078de6a74d42d80bbe79fc8d907a0c6285646b535c277998bd1df8f04",
+        "sha256_in_prefix": "0cea6b1078de6a74d42d80bbe79fc8d907a0c6285646b535c277998bd1df8f04",
+        "size_in_bytes": 1028
+      },
+      {
+        "_path": "site-packages/chameleon/py25.py",
+        "path_type": "hardlink",
+        "sha256": "2b93ff15364037fb65bd04d19dc064381956e23276d4aba5b4730115040dd848",
+        "sha256_in_prefix": "2b93ff15364037fb65bd04d19dc064381956e23276d4aba5b4730115040dd848",
+        "size_in_bytes": 778
+      },
+      {
+        "_path": "site-packages/chameleon/py26.py",
+        "path_type": "hardlink",
+        "sha256": "08ef6835287062d060df18e183de847ad1ffb8e3ee305154475de9d7b7b803e3",
+        "sha256_in_prefix": "08ef6835287062d060df18e183de847ad1ffb8e3ee305154475de9d7b7b803e3",
+        "size_in_bytes": 328
+      },
+      {
+        "_path": "site-packages/chameleon/tal.py",
+        "path_type": "hardlink",
+        "sha256": "4fcdbf8f2f6f172e5312bf0ffef026304d455b629d9e4990797decc5e8e2d70e",
+        "sha256_in_prefix": "4fcdbf8f2f6f172e5312bf0ffef026304d455b629d9e4990797decc5e8e2d70e",
+        "size_in_bytes": 12548
+      },
+      {
+        "_path": "site-packages/chameleon/tales.py",
+        "path_type": "hardlink",
+        "sha256": "511ab5fdffb5142b04208ee833118a2afd1079ea122ba33e0368515a3c549ed3",
+        "sha256_in_prefix": "511ab5fdffb5142b04208ee833118a2afd1079ea122ba33e0368515a3c549ed3",
+        "size_in_bytes": 16859
+      },
+      {
+        "_path": "site-packages/chameleon/template.py",
+        "path_type": "hardlink",
+        "sha256": "6a09c14e75de539b89baec011b3c3e187005ecf99f4736f93f118780f5e20a50",
+        "sha256_in_prefix": "6a09c14e75de539b89baec011b3c3e187005ecf99f4736f93f118780f5e20a50",
+        "size_in_bytes": 10504
+      },
+      {
+        "_path": "site-packages/chameleon/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "32c4858e22cc2c967b42150fa550562a2c839c2cebcaab91cabdf6f4da020022",
+        "sha256_in_prefix": "32c4858e22cc2c967b42150fa550562a2c839c2cebcaab91cabdf6f4da020022",
+        "size_in_bytes": 2
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/001-interpolation.txt",
+        "path_type": "hardlink",
+        "sha256": "0fdfe383edfca0c143adb2d0bad5414ac0f3b9243dd47600406e24b2c1fc4874",
+        "sha256_in_prefix": "0fdfe383edfca0c143adb2d0bad5414ac0f3b9243dd47600406e24b2c1fc4874",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/001-variable-scope.html",
+        "path_type": "hardlink",
+        "sha256": "b0002ca26570b42dd595741b7a942af0333e89d6715a5c295a955173200667f7",
+        "sha256_in_prefix": "b0002ca26570b42dd595741b7a942af0333e89d6715a5c295a955173200667f7",
+        "size_in_bytes": 115
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/001-variable-scope.pt",
+        "path_type": "hardlink",
+        "sha256": "2e7222d87ce2b39a25570d464a1f99b6fee439146708fc6dbdd8dcfa172c4d39",
+        "sha256_in_prefix": "2e7222d87ce2b39a25570d464a1f99b6fee439146708fc6dbdd8dcfa172c4d39",
+        "size_in_bytes": 207
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/001.xml",
+        "path_type": "hardlink",
+        "sha256": "de65b0aef0514bd49ec2b2a415b0cc77c5af509ae0292111bb539f008a71fa0b",
+        "sha256_in_prefix": "de65b0aef0514bd49ec2b2a415b0cc77c5af509ae0292111bb539f008a71fa0b",
+        "size_in_bytes": 60
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/002-repeat-scope.pt",
+        "path_type": "hardlink",
+        "sha256": "4ae14ddb5d1fff66eca43dd4f4d5ef31f84d08c4af7cb14122786090f39b5961",
+        "sha256_in_prefix": "4ae14ddb5d1fff66eca43dd4f4d5ef31f84d08c4af7cb14122786090f39b5961",
+        "size_in_bytes": 217
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/002.xml",
+        "path_type": "hardlink",
+        "sha256": "9c8cd4004b4e99d7e0349198eff6b5788898d518a72e945690efa3aabb57e3c6",
+        "sha256_in_prefix": "9c8cd4004b4e99d7e0349198eff6b5788898d518a72e945690efa3aabb57e3c6",
+        "size_in_bytes": 61
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/003-content.pt",
+        "path_type": "hardlink",
+        "sha256": "68b27c086cc530d6879c567ecb6314b9bcc9bd42eaedf4d42ef5c1f9b75869a3",
+        "sha256_in_prefix": "68b27c086cc530d6879c567ecb6314b9bcc9bd42eaedf4d42ef5c1f9b75869a3",
+        "size_in_bytes": 506
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/003.xml",
+        "path_type": "hardlink",
+        "sha256": "3aee4bc3cda28b648b590c705ce19b4291ddcd4382d3249d420b98e9fb95dc8b",
+        "sha256_in_prefix": "3aee4bc3cda28b648b590c705ce19b4291ddcd4382d3249d420b98e9fb95dc8b",
+        "size_in_bytes": 61
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/004-attributes.pt",
+        "path_type": "hardlink",
+        "sha256": "97d18a1869642d0aebe8e128daaa68bec5f80e34907b7a29def6c8e2ee077474",
+        "sha256_in_prefix": "97d18a1869642d0aebe8e128daaa68bec5f80e34907b7a29def6c8e2ee077474",
+        "size_in_bytes": 1337
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/004.xml",
+        "path_type": "hardlink",
+        "sha256": "57b2bc145c55e8774a08f7182456d140edc93f5126c9b0707a352afdf2dac3e0",
+        "sha256_in_prefix": "57b2bc145c55e8774a08f7182456d140edc93f5126c9b0707a352afdf2dac3e0",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/005-default.pt",
+        "path_type": "hardlink",
+        "sha256": "eb69f2cb8a709d6b68af8c1705a997456686607ac9d3ee68db12da316ef77aa1",
+        "sha256_in_prefix": "eb69f2cb8a709d6b68af8c1705a997456686607ac9d3ee68db12da316ef77aa1",
+        "size_in_bytes": 354
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/005.xml",
+        "path_type": "hardlink",
+        "sha256": "8a50abecf1bd203df4bf3f8d54db5be292570280447eb2e38e496e80a56ecd6d",
+        "sha256_in_prefix": "8a50abecf1bd203df4bf3f8d54db5be292570280447eb2e38e496e80a56ecd6d",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/006-attribute-interpolation.pt",
+        "path_type": "hardlink",
+        "sha256": "a7139e493de09e9bb386e8cf1fe07ecf64dd37aa6bad41b4adbcc42b493a1939",
+        "sha256_in_prefix": "a7139e493de09e9bb386e8cf1fe07ecf64dd37aa6bad41b4adbcc42b493a1939",
+        "size_in_bytes": 399
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/006.xml",
+        "path_type": "hardlink",
+        "sha256": "d146d572ed53098a54497dc1bfd3600ccaf8a0471e35638f2328a938897d38aa",
+        "sha256_in_prefix": "d146d572ed53098a54497dc1bfd3600ccaf8a0471e35638f2328a938897d38aa",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/007-content-interpolation.pt",
+        "path_type": "hardlink",
+        "sha256": "360a9b37b5e33309d1272ee82a16d50d583a6f0db8b396944d5303f3ce08362b",
+        "sha256_in_prefix": "360a9b37b5e33309d1272ee82a16d50d583a6f0db8b396944d5303f3ce08362b",
+        "size_in_bytes": 431
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/007.xml",
+        "path_type": "hardlink",
+        "sha256": "7c6096f8ca3c6c9772343a0d10f6881f8fd77d4a00370444966521edc09875b6",
+        "sha256_in_prefix": "7c6096f8ca3c6c9772343a0d10f6881f8fd77d4a00370444966521edc09875b6",
+        "size_in_bytes": 65
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/008-builtins.pt",
+        "path_type": "hardlink",
+        "sha256": "849c9c5a66403f30f19f6925c7acad1e7821a6daadc478c7067bd2c62bcb1f58",
+        "sha256_in_prefix": "849c9c5a66403f30f19f6925c7acad1e7821a6daadc478c7067bd2c62bcb1f58",
+        "size_in_bytes": 234
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/008.xml",
+        "path_type": "hardlink",
+        "sha256": "5c62d26d2c0988e8a91c127b189cbbf520144a94d3f41061c3480891d7f163c4",
+        "sha256_in_prefix": "5c62d26d2c0988e8a91c127b189cbbf520144a94d3f41061c3480891d7f163c4",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/009-literals.pt",
+        "path_type": "hardlink",
+        "sha256": "c9c6ff3e89d11c565827c3edb2a3707b4727715ce62a9d92a08b4dcabd906771",
+        "sha256_in_prefix": "c9c6ff3e89d11c565827c3edb2a3707b4727715ce62a9d92a08b4dcabd906771",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/009.xml",
+        "path_type": "hardlink",
+        "sha256": "e5047696f71ca9174f7d18118d915f4fa86adf5685d7cc13d51e218e2fc1b9c6",
+        "sha256_in_prefix": "e5047696f71ca9174f7d18118d915f4fa86adf5685d7cc13d51e218e2fc1b9c6",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/010-structure.pt",
+        "path_type": "hardlink",
+        "sha256": "8f2e5e07130d9ac0fb5f340da8af56944e04a83520097d8eea08192cadbb4dc7",
+        "sha256_in_prefix": "8f2e5e07130d9ac0fb5f340da8af56944e04a83520097d8eea08192cadbb4dc7",
+        "size_in_bytes": 317
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/010.xml",
+        "path_type": "hardlink",
+        "sha256": "e652841c04130c91b891128f80357f485ff84a352a6c460c16d6a6a833b1e5b5",
+        "sha256_in_prefix": "e652841c04130c91b891128f80357f485ff84a352a6c460c16d6a6a833b1e5b5",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/011-messages.pt",
+        "path_type": "hardlink",
+        "sha256": "59a8583a15abf4591202ea12d0116ad2e2ef4332266cd2f41a78596fe1196401",
+        "sha256_in_prefix": "59a8583a15abf4591202ea12d0116ad2e2ef4332266cd2f41a78596fe1196401",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/011.xml",
+        "path_type": "hardlink",
+        "sha256": "a95c220cf496c17bba8d575c052a7d12a87930a01b9e2c503b74bf71eed3667c",
+        "sha256_in_prefix": "a95c220cf496c17bba8d575c052a7d12a87930a01b9e2c503b74bf71eed3667c",
+        "size_in_bytes": 128
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/012-translation.pt",
+        "path_type": "hardlink",
+        "sha256": "a5556b960734407194f438a436ec53c8871573e84965d9b47b40b812d501a4a7",
+        "sha256_in_prefix": "a5556b960734407194f438a436ec53c8871573e84965d9b47b40b812d501a4a7",
+        "size_in_bytes": 567
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/012.xml",
+        "path_type": "hardlink",
+        "sha256": "4f089ffade524a7504ccd1e89f78c6e04647de542b8529f97cd3651850ca99de",
+        "sha256_in_prefix": "4f089ffade524a7504ccd1e89f78c6e04647de542b8529f97cd3651850ca99de",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/013-repeat-nested.pt",
+        "path_type": "hardlink",
+        "sha256": "6b1f0aadea768072a61d0f299fa2e306fd8131e5c6cbe52d13e0b6b8a36c6607",
+        "sha256_in_prefix": "6b1f0aadea768072a61d0f299fa2e306fd8131e5c6cbe52d13e0b6b8a36c6607",
+        "size_in_bytes": 173
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/013.xml",
+        "path_type": "hardlink",
+        "sha256": "42bb8e17e723c9c21967dba49cf03910c898795ab6b30d71ba99c9384b7aa224",
+        "sha256_in_prefix": "42bb8e17e723c9c21967dba49cf03910c898795ab6b30d71ba99c9384b7aa224",
+        "size_in_bytes": 124
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/014-repeat-nested-similar.pt",
+        "path_type": "hardlink",
+        "sha256": "9b065731fb09fc047831d985c4a9bbfe5443a64fb2a0f6b09f9c33c10a05ad70",
+        "sha256_in_prefix": "9b065731fb09fc047831d985c4a9bbfe5443a64fb2a0f6b09f9c33c10a05ad70",
+        "size_in_bytes": 130
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/014.xml",
+        "path_type": "hardlink",
+        "sha256": "60ade39bdbba0cff403168c1cd03250a089ff5af5ea7918accab6cebc93b68f3",
+        "sha256_in_prefix": "60ade39bdbba0cff403168c1cd03250a089ff5af5ea7918accab6cebc93b68f3",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/015-translation-nested.pt",
+        "path_type": "hardlink",
+        "sha256": "1f58a921aa04b354c89c20e5c075a528714cc49f09f955f381359096efd986c3",
+        "sha256_in_prefix": "1f58a921aa04b354c89c20e5c075a528714cc49f09f955f381359096efd986c3",
+        "size_in_bytes": 202
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/015.xml",
+        "path_type": "hardlink",
+        "sha256": "5c1c8e2d05d535e05cd62e7b7f24a1a6940b0400e892906e42508a54b844e1b5",
+        "sha256_in_prefix": "5c1c8e2d05d535e05cd62e7b7f24a1a6940b0400e892906e42508a54b844e1b5",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/016-explicit-translation.pt",
+        "path_type": "hardlink",
+        "sha256": "05ab6df1f276f44a634b0f6d0d0ee64def70c19f54646cf599c17e9246387fe4",
+        "sha256_in_prefix": "05ab6df1f276f44a634b0f6d0d0ee64def70c19f54646cf599c17e9246387fe4",
+        "size_in_bytes": 406
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/016.xml",
+        "path_type": "hardlink",
+        "sha256": "5d5c7afef797d84876ee6275566f977dd87f1d1bb70be31404928041bf9f837f",
+        "sha256_in_prefix": "5d5c7afef797d84876ee6275566f977dd87f1d1bb70be31404928041bf9f837f",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/017-omit-tag.pt",
+        "path_type": "hardlink",
+        "sha256": "43f175fdde7bc78a29325ce5e8d0d098a23685079ec455f7d43f0f1b8b05cb54",
+        "sha256_in_prefix": "43f175fdde7bc78a29325ce5e8d0d098a23685079ec455f7d43f0f1b8b05cb54",
+        "size_in_bytes": 365
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/017.xml",
+        "path_type": "hardlink",
+        "sha256": "7fdff78bf82613a0e85652d321d2246ee15c8619911b70fc90158b2ce2ef3412",
+        "sha256_in_prefix": "7fdff78bf82613a0e85652d321d2246ee15c8619911b70fc90158b2ce2ef3412",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/018-translation-nested-dynamic.pt",
+        "path_type": "hardlink",
+        "sha256": "6d25e9836c2a6787c0e65fc27bbf134de7532b2bc445cc143b8c10e3251a6c23",
+        "sha256_in_prefix": "6d25e9836c2a6787c0e65fc27bbf134de7532b2bc445cc143b8c10e3251a6c23",
+        "size_in_bytes": 430
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/018.xml",
+        "path_type": "hardlink",
+        "sha256": "6439222060b97bb670285371dcbd0259c263e01eb2d37a1d766c1c0739f607e2",
+        "sha256_in_prefix": "6439222060b97bb670285371dcbd0259c263e01eb2d37a1d766c1c0739f607e2",
+        "size_in_bytes": 77
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/019-replace.pt",
+        "path_type": "hardlink",
+        "sha256": "ff74860dcee1f9378e07f456456a3ef326365eb9d85c19cbd4b0bf97b370fa1f",
+        "sha256_in_prefix": "ff74860dcee1f9378e07f456456a3ef326365eb9d85c19cbd4b0bf97b370fa1f",
+        "size_in_bytes": 381
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/019.xml",
+        "path_type": "hardlink",
+        "sha256": "6ad1831b8067fb5d83d42c45d28eaa79466723c216d605b62da9bd4c9abed2d4",
+        "sha256_in_prefix": "6ad1831b8067fb5d83d42c45d28eaa79466723c216d605b62da9bd4c9abed2d4",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/020-on-error.pt",
+        "path_type": "hardlink",
+        "sha256": "e904294a0d091b162514a09e8f0e050207d8714495f42ee00083213f07d9e933",
+        "sha256_in_prefix": "e904294a0d091b162514a09e8f0e050207d8714495f42ee00083213f07d9e933",
+        "size_in_bytes": 392
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/020.xml",
+        "path_type": "hardlink",
+        "sha256": "2beb1161dc05a7cf01db8b8ce6f0871efac7bc13032bdc67f9fd167033114242",
+        "sha256_in_prefix": "2beb1161dc05a7cf01db8b8ce6f0871efac7bc13032bdc67f9fd167033114242",
+        "size_in_bytes": 77
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/021-translation-domain.pt",
+        "path_type": "hardlink",
+        "sha256": "eab35d9e2c4d92cdfd71df737f301e273efe3f1803b0514d5e6ae3ed0c9d149a",
+        "sha256_in_prefix": "eab35d9e2c4d92cdfd71df737f301e273efe3f1803b0514d5e6ae3ed0c9d149a",
+        "size_in_bytes": 387
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/021.xml",
+        "path_type": "hardlink",
+        "sha256": "01a764012df5137710c50b64fd2ef99639745eb4f8241301eed107d32aa49fbd",
+        "sha256_in_prefix": "01a764012df5137710c50b64fd2ef99639745eb4f8241301eed107d32aa49fbd",
+        "size_in_bytes": 78
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/022-switch.pt",
+        "path_type": "hardlink",
+        "sha256": "5e88e11f2e9be1456f594615ea94eac47359766ebd8f731ff08f4a7fe21a1487",
+        "sha256_in_prefix": "5e88e11f2e9be1456f594615ea94eac47359766ebd8f731ff08f4a7fe21a1487",
+        "size_in_bytes": 566
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/022.xml",
+        "path_type": "hardlink",
+        "sha256": "659bf1542559a4ef7c0aab9eb5dd264771a1c47b65a3a402a5031d437ba71a90",
+        "sha256_in_prefix": "659bf1542559a4ef7c0aab9eb5dd264771a1c47b65a3a402a5031d437ba71a90",
+        "size_in_bytes": 80
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/023-condition.pt",
+        "path_type": "hardlink",
+        "sha256": "d28da3f4c73f4ffeab4a3b0359b7787bc62d9ef67f05b6f4ac6f7d540e383381",
+        "sha256_in_prefix": "d28da3f4c73f4ffeab4a3b0359b7787bc62d9ef67f05b6f4ac6f7d540e383381",
+        "size_in_bytes": 170
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/023.xml",
+        "path_type": "hardlink",
+        "sha256": "588b9c8c22a7ec4e57df0c33038741c0840188abd12908598a9f2bca04c3a0c1",
+        "sha256_in_prefix": "588b9c8c22a7ec4e57df0c33038741c0840188abd12908598a9f2bca04c3a0c1",
+        "size_in_bytes": 79
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/024-namespace-elements.pt",
+        "path_type": "hardlink",
+        "sha256": "4e5e164374d060b4c31ca7d50bac50f275d037e1f2245f6302d76bba12add03d",
+        "sha256_in_prefix": "4e5e164374d060b4c31ca7d50bac50f275d037e1f2245f6302d76bba12add03d",
+        "size_in_bytes": 258
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/024.xml",
+        "path_type": "hardlink",
+        "sha256": "c534544b78396cd6295c3f07c60f514d3d38300765d97e5d6f0696d99333cf3c",
+        "sha256_in_prefix": "c534544b78396cd6295c3f07c60f514d3d38300765d97e5d6f0696d99333cf3c",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/025-repeat-whitespace.pt",
+        "path_type": "hardlink",
+        "sha256": "a8ee987e6ae04b5e2c6a52fb009806adebd0bff3fb62c0fbfb5c0156405e177c",
+        "sha256_in_prefix": "a8ee987e6ae04b5e2c6a52fb009806adebd0bff3fb62c0fbfb5c0156405e177c",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/025.xml",
+        "path_type": "hardlink",
+        "sha256": "78c006b0d433e2a0569c2b4ce107ecb34e889990373f00cb4e01cc60a47b4751",
+        "sha256_in_prefix": "78c006b0d433e2a0569c2b4ce107ecb34e889990373f00cb4e01cc60a47b4751",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/026-repeat-variable.pt",
+        "path_type": "hardlink",
+        "sha256": "35c3046673bf2347f4c77666455b1a9847e90265f2d1b7fdff60d7ab7366c6dc",
+        "sha256_in_prefix": "35c3046673bf2347f4c77666455b1a9847e90265f2d1b7fdff60d7ab7366c6dc",
+        "size_in_bytes": 605
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/026.xml",
+        "path_type": "hardlink",
+        "sha256": "99b601d95e6e34b4bcca33113e26c071f3e66e8e96e6e215fdea37fc0fdb9b96",
+        "sha256_in_prefix": "99b601d95e6e34b4bcca33113e26c071f3e66e8e96e6e215fdea37fc0fdb9b96",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/027-attribute-replacement.pt",
+        "path_type": "hardlink",
+        "sha256": "9b24b31becc456280907b1081dc3c9c52760c07fa72000cf2b6fcbe33a446de3",
+        "sha256_in_prefix": "9b24b31becc456280907b1081dc3c9c52760c07fa72000cf2b6fcbe33a446de3",
+        "size_in_bytes": 444
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/027.xml",
+        "path_type": "hardlink",
+        "sha256": "14da9e85d5ba172b4ca028cacced01cbfa53e7ba31f836858f2eb582a75873bf",
+        "sha256_in_prefix": "14da9e85d5ba172b4ca028cacced01cbfa53e7ba31f836858f2eb582a75873bf",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/028-attribute-toggle.pt",
+        "path_type": "hardlink",
+        "sha256": "768421b6a13f3d3b68f21c62caec3622359831215183dbc83a65252c3413df10",
+        "sha256_in_prefix": "768421b6a13f3d3b68f21c62caec3622359831215183dbc83a65252c3413df10",
+        "size_in_bytes": 256
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/028.xml",
+        "path_type": "hardlink",
+        "sha256": "eaeefc4b25fedefd9e5d26793acc286b99a2dac18d0ba9fcea329c8a73668950",
+        "sha256_in_prefix": "eaeefc4b25fedefd9e5d26793acc286b99a2dac18d0ba9fcea329c8a73668950",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/029-attribute-ordering.pt",
+        "path_type": "hardlink",
+        "sha256": "c7d6b38ffae742343ffef27393f6ece5fc8f65999e1f0491ea97b1fa12cab56b",
+        "sha256_in_prefix": "c7d6b38ffae742343ffef27393f6ece5fc8f65999e1f0491ea97b1fa12cab56b",
+        "size_in_bytes": 206
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/029.xml",
+        "path_type": "hardlink",
+        "sha256": "f065ac05ca1ef5a93dcbf36c19c9aff46c96066e83fbedaee93b511a6e937667",
+        "sha256_in_prefix": "f065ac05ca1ef5a93dcbf36c19c9aff46c96066e83fbedaee93b511a6e937667",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/030-repeat-tuples.pt",
+        "path_type": "hardlink",
+        "sha256": "4a7ae2853324a4bcfc3189c5f8fe5c7039d98ffc3976b8a4091630c46b3ac1dd",
+        "sha256_in_prefix": "4a7ae2853324a4bcfc3189c5f8fe5c7039d98ffc3976b8a4091630c46b3ac1dd",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/030.xml",
+        "path_type": "hardlink",
+        "sha256": "638ed2e7c94c16be6cade75db70de2f4618ab5be54b9addc1c05de5333b1c5f8",
+        "sha256_in_prefix": "638ed2e7c94c16be6cade75db70de2f4618ab5be54b9addc1c05de5333b1c5f8",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/031-namespace-with-tal.pt",
+        "path_type": "hardlink",
+        "sha256": "22092ab72ea0ad4f6a56e55571ad0287faa87c047a4852c2cb444d6dc69b891b",
+        "sha256_in_prefix": "22092ab72ea0ad4f6a56e55571ad0287faa87c047a4852c2cb444d6dc69b891b",
+        "size_in_bytes": 236
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/031.xml",
+        "path_type": "hardlink",
+        "sha256": "0536c402ad6a42696fa7fa07b8a3dbff2e9c9799f1b256aa9f007c823b1b5d6f",
+        "sha256_in_prefix": "0536c402ad6a42696fa7fa07b8a3dbff2e9c9799f1b256aa9f007c823b1b5d6f",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/032-master-template.pt",
+        "path_type": "hardlink",
+        "sha256": "e2b5021c4b7b69373fb1524b490341a64709e87fad1b291f54b204391998c046",
+        "sha256_in_prefix": "e2b5021c4b7b69373fb1524b490341a64709e87fad1b291f54b204391998c046",
+        "size_in_bytes": 617
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/032.xml",
+        "path_type": "hardlink",
+        "sha256": "36c49a8703c7af80911ea0cb9eaf11ce1993a947f7065113a5f3c32da6d79dd8",
+        "sha256_in_prefix": "36c49a8703c7af80911ea0cb9eaf11ce1993a947f7065113a5f3c32da6d79dd8",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/033-use-macro-trivial.pt",
+        "path_type": "hardlink",
+        "sha256": "a33d52875d575451cfb1b4c8354b71dae16385b1188416eb95faf4fb8740043f",
+        "sha256_in_prefix": "a33d52875d575451cfb1b4c8354b71dae16385b1188416eb95faf4fb8740043f",
+        "size_in_bytes": 73
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/033.xml",
+        "path_type": "hardlink",
+        "sha256": "7bc622d8ec30ad6d355e86e5d659b6f79667fc8930b72fc47d2189b36f406706",
+        "sha256_in_prefix": "7bc622d8ec30ad6d355e86e5d659b6f79667fc8930b72fc47d2189b36f406706",
+        "size_in_bytes": 117
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/034-use-template-as-macro.pt",
+        "path_type": "hardlink",
+        "sha256": "c0edcaf83ed939da715947fd4882f92ffa4fe3f58d101396095ebcbf7884b2fc",
+        "sha256_in_prefix": "c0edcaf83ed939da715947fd4882f92ffa4fe3f58d101396095ebcbf7884b2fc",
+        "size_in_bytes": 57
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/034.xml",
+        "path_type": "hardlink",
+        "sha256": "312b9e78da071dd45f106427f3f86a8f2660195f9d6fc6d0a5109ea879618b84",
+        "sha256_in_prefix": "312b9e78da071dd45f106427f3f86a8f2660195f9d6fc6d0a5109ea879618b84",
+        "size_in_bytes": 55
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/035-use-macro-with-fill-slot.pt",
+        "path_type": "hardlink",
+        "sha256": "a3f2fcb8969be395ec998dfd9580f4bc5c5997543e258dc18463c04d72beae65",
+        "sha256_in_prefix": "a3f2fcb8969be395ec998dfd9580f4bc5c5997543e258dc18463c04d72beae65",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/035.xml",
+        "path_type": "hardlink",
+        "sha256": "be76c2fc1b113467534f74c23d4f2d533d1547ccf9229bff5b20f56914bc6a02",
+        "sha256_in_prefix": "be76c2fc1b113467534f74c23d4f2d533d1547ccf9229bff5b20f56914bc6a02",
+        "size_in_bytes": 56
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/036-use-macro-inherits-dynamic-scope.pt",
+        "path_type": "hardlink",
+        "sha256": "42bbecee3365706f2bb98a0de2eb86c3d8b4b41271f25a5af03b1ff90582616d",
+        "sha256_in_prefix": "42bbecee3365706f2bb98a0de2eb86c3d8b4b41271f25a5af03b1ff90582616d",
+        "size_in_bytes": 115
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/036.xml",
+        "path_type": "hardlink",
+        "sha256": "b9615b3ec8721713991c6023835170261c6c502541d79997583cdee7a8159eb0",
+        "sha256_in_prefix": "b9615b3ec8721713991c6023835170261c6c502541d79997583cdee7a8159eb0",
+        "size_in_bytes": 73
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/037-use-macro-local-variable-scope.pt",
+        "path_type": "hardlink",
+        "sha256": "456035b842eae07093e45f4e26197680155b4a7dcaac87e5e07b79ca55ebf54c",
+        "sha256_in_prefix": "456035b842eae07093e45f4e26197680155b4a7dcaac87e5e07b79ca55ebf54c",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/037.xml",
+        "path_type": "hardlink",
+        "sha256": "834ea27def0e2064c22647ab023b856066758b981149ebdb090dc46449752b17",
+        "sha256_in_prefix": "834ea27def0e2064c22647ab023b856066758b981149ebdb090dc46449752b17",
+        "size_in_bytes": 80
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/038-use-macro-globals.pt",
+        "path_type": "hardlink",
+        "sha256": "2ba0d37125bf9c15617871c6646d516be71813bfc4eb2e128378d4c7e9ef4130",
+        "sha256_in_prefix": "2ba0d37125bf9c15617871c6646d516be71813bfc4eb2e128378d4c7e9ef4130",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/038.xml",
+        "path_type": "hardlink",
+        "sha256": "e8014f2fcffb8d119d969301543349cf0458f5503fc01fce5d5063a892837d0a",
+        "sha256_in_prefix": "e8014f2fcffb8d119d969301543349cf0458f5503fc01fce5d5063a892837d0a",
+        "size_in_bytes": 80
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/039-globals.pt",
+        "path_type": "hardlink",
+        "sha256": "147ce5e441cb43c267cd5274ecb2ac725416d47c54b563d9bd21bd31b599240a",
+        "sha256_in_prefix": "147ce5e441cb43c267cd5274ecb2ac725416d47c54b563d9bd21bd31b599240a",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/039.xml",
+        "path_type": "hardlink",
+        "sha256": "f0872edf0fbc09eb88b232d98d6630e8fb5520ffa01489c86ba7e2e0e9fded54",
+        "sha256_in_prefix": "f0872edf0fbc09eb88b232d98d6630e8fb5520ffa01489c86ba7e2e0e9fded54",
+        "size_in_bytes": 73
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/040-macro-using-template-symbol.pt",
+        "path_type": "hardlink",
+        "sha256": "f60d6490d4ea59b0d61605698d9e4c599d5afa5a079dc45610266e812a39e228",
+        "sha256_in_prefix": "f60d6490d4ea59b0d61605698d9e4c599d5afa5a079dc45610266e812a39e228",
+        "size_in_bytes": 863
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/040.xml",
+        "path_type": "hardlink",
+        "sha256": "0bbbbc77aac8efeb9bc220b566ae1b1bf1c1c40ae7e75adc90a56eb17762fb1b",
+        "sha256_in_prefix": "0bbbbc77aac8efeb9bc220b566ae1b1bf1c1c40ae7e75adc90a56eb17762fb1b",
+        "size_in_bytes": 125
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/041-translate-nested-names.pt",
+        "path_type": "hardlink",
+        "sha256": "4ca83296c647f441bd0fa56715591c8d4e641c49438bc6201d1690ee5c214050",
+        "sha256_in_prefix": "4ca83296c647f441bd0fa56715591c8d4e641c49438bc6201d1690ee5c214050",
+        "size_in_bytes": 501
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/041.xml",
+        "path_type": "hardlink",
+        "sha256": "45938d4df2d216856c343b3c27e7cd7ef751c148cbbea79b2d21d5357ac81b84",
+        "sha256_in_prefix": "45938d4df2d216856c343b3c27e7cd7ef751c148cbbea79b2d21d5357ac81b84",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/042-use-macro-fill-footer.pt",
+        "path_type": "hardlink",
+        "sha256": "14acecfab78aa616881cb0c61059dd8a682925fa676d82030e3466697578cc5c",
+        "sha256_in_prefix": "14acecfab78aa616881cb0c61059dd8a682925fa676d82030e3466697578cc5c",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/042.xml",
+        "path_type": "hardlink",
+        "sha256": "1a890276e241b4741cabf6e76b1c7b885baee0c10f4ed84bbc1d36266d27aa23",
+        "sha256_in_prefix": "1a890276e241b4741cabf6e76b1c7b885baee0c10f4ed84bbc1d36266d27aa23",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/043-macro-nested-dynamic-vars.pt",
+        "path_type": "hardlink",
+        "sha256": "62edf44124ae582963b5db5f6b3a6e9d7ce3edca999430e65541d5497865f39d",
+        "sha256_in_prefix": "62edf44124ae582963b5db5f6b3a6e9d7ce3edca999430e65541d5497865f39d",
+        "size_in_bytes": 396
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/043.xml",
+        "path_type": "hardlink",
+        "sha256": "6aa26c2bd44ebe142d7bf015bf025f86f174143dbc1dfef697d78de64727804d",
+        "sha256_in_prefix": "6aa26c2bd44ebe142d7bf015bf025f86f174143dbc1dfef697d78de64727804d",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/044-tuple-define.pt",
+        "path_type": "hardlink",
+        "sha256": "0c8fa5a64d622b4b530c19fd3d32e1af4b10c58c5b4db5d83df3535eca183c06",
+        "sha256_in_prefix": "0c8fa5a64d622b4b530c19fd3d32e1af4b10c58c5b4db5d83df3535eca183c06",
+        "size_in_bytes": 78
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/044.xml",
+        "path_type": "hardlink",
+        "sha256": "e51d844b10df754643512cb449960e21fdbf7f6e10f8f6d2cc6b87bc7dfcfa0e",
+        "sha256_in_prefix": "e51d844b10df754643512cb449960e21fdbf7f6e10f8f6d2cc6b87bc7dfcfa0e",
+        "size_in_bytes": 187
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/045-namespaces.pt",
+        "path_type": "hardlink",
+        "sha256": "c8e76da8f030949025b6b8b6ffe99842a3cc15a4f6743c7d217ea68d0e7e7237",
+        "sha256_in_prefix": "c8e76da8f030949025b6b8b6ffe99842a3cc15a4f6743c7d217ea68d0e7e7237",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/045.xml",
+        "path_type": "hardlink",
+        "sha256": "7cc456d94bed060c113c3cbbbf58576bcbcc059e9a499cddef1b4c758408d86d",
+        "sha256_in_prefix": "7cc456d94bed060c113c3cbbbf58576bcbcc059e9a499cddef1b4c758408d86d",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/046-extend-macro.pt",
+        "path_type": "hardlink",
+        "sha256": "32569f1125fc5e33cd493bb2cf1e712457f697826a4fe88a43a551a47374d6bb",
+        "sha256_in_prefix": "32569f1125fc5e33cd493bb2cf1e712457f697826a4fe88a43a551a47374d6bb",
+        "size_in_bytes": 229
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/046.xml",
+        "path_type": "hardlink",
+        "sha256": "f9630cb210dc1a22eb53236fa292cceda3295c852d4aa1e1734faa1a5480b55e",
+        "sha256_in_prefix": "f9630cb210dc1a22eb53236fa292cceda3295c852d4aa1e1734faa1a5480b55e",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/047-use-extended-macro.pt",
+        "path_type": "hardlink",
+        "sha256": "8473df14605c325c50eb343c3ac4b2314fa0944e792058d03d77a23454c18fae",
+        "sha256_in_prefix": "8473df14605c325c50eb343c3ac4b2314fa0944e792058d03d77a23454c18fae",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/047.xml",
+        "path_type": "hardlink",
+        "sha256": "5fe67170c1cc6b8e8a6af68b686efa242a2073add600bc31605dd46fe6ea9d67",
+        "sha256_in_prefix": "5fe67170c1cc6b8e8a6af68b686efa242a2073add600bc31605dd46fe6ea9d67",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/048-use-extended-macro-fill-original.pt",
+        "path_type": "hardlink",
+        "sha256": "e86f3faf5162e11d770cc227d235b5de02ffb96d975a8a05572a352a399d5b5a",
+        "sha256_in_prefix": "e86f3faf5162e11d770cc227d235b5de02ffb96d975a8a05572a352a399d5b5a",
+        "size_in_bytes": 158
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/048.xml",
+        "path_type": "hardlink",
+        "sha256": "e7a5032d7c046a15d7705d85c86bb5d5553c224be78532c55d7d3796f2ebc5d8",
+        "sha256_in_prefix": "e7a5032d7c046a15d7705d85c86bb5d5553c224be78532c55d7d3796f2ebc5d8",
+        "size_in_bytes": 61
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/049-entities-in-attributes.pt",
+        "path_type": "hardlink",
+        "sha256": "6c129ca8353f9c950b9f1e037db48abd464a82dd5080a8d39d175f93e435e5bb",
+        "sha256_in_prefix": "6c129ca8353f9c950b9f1e037db48abd464a82dd5080a8d39d175f93e435e5bb",
+        "size_in_bytes": 455
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/049.xml",
+        "path_type": "hardlink",
+        "sha256": "64abd7e7d104031c2ef8c975f3240661557bde04f46108b66ea2e25d17c9d358",
+        "sha256_in_prefix": "64abd7e7d104031c2ef8c975f3240661557bde04f46108b66ea2e25d17c9d358",
+        "size_in_bytes": 124
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/050-define-macro-and-use-not-extend.pt",
+        "path_type": "hardlink",
+        "sha256": "7476002d4904ce795535558e73385d898373cfe1b9fdfd69a4e4e5cf67d86d21",
+        "sha256_in_prefix": "7476002d4904ce795535558e73385d898373cfe1b9fdfd69a4e4e5cf67d86d21",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/050.xml",
+        "path_type": "hardlink",
+        "sha256": "7650e8370a5a11705223bbe501bfc8e1bdd407e9d8bcaed58cc8b9f808cd79d5",
+        "sha256_in_prefix": "7650e8370a5a11705223bbe501bfc8e1bdd407e9d8bcaed58cc8b9f808cd79d5",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/051-use-non-extended-macro.pt",
+        "path_type": "hardlink",
+        "sha256": "417912a2a11cf3d1e5634c714709e5f77393632e2cc7c55b5d98ac5337ca5f6e",
+        "sha256_in_prefix": "417912a2a11cf3d1e5634c714709e5f77393632e2cc7c55b5d98ac5337ca5f6e",
+        "size_in_bytes": 183
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/051.xml",
+        "path_type": "hardlink",
+        "sha256": "9d943b6b0c3b9f945c45529cd6b65c0faa2772e1b42ed34de399d0e4c70dea29",
+        "sha256_in_prefix": "9d943b6b0c3b9f945c45529cd6b65c0faa2772e1b42ed34de399d0e4c70dea29",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/052-i18n-domain-inside-filled-slot.pt",
+        "path_type": "hardlink",
+        "sha256": "730481b883e0a9dcad3be7661eb7aafba7c58c2bc341ef3464ee17a2d3242b96",
+        "sha256_in_prefix": "730481b883e0a9dcad3be7661eb7aafba7c58c2bc341ef3464ee17a2d3242b96",
+        "size_in_bytes": 258
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/052.xml",
+        "path_type": "hardlink",
+        "sha256": "aead6e1cfdf115f622cd53aa621d171ae718c12fb0ddeac264e00085e27333bd",
+        "sha256_in_prefix": "aead6e1cfdf115f622cd53aa621d171ae718c12fb0ddeac264e00085e27333bd",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/053-special-characters-in-attributes.pt",
+        "path_type": "hardlink",
+        "sha256": "eb3ee1ce321319bbfc47211db22e73651dca02d6d5695e906e5fa433e31e6605",
+        "sha256_in_prefix": "eb3ee1ce321319bbfc47211db22e73651dca02d6d5695e906e5fa433e31e6605",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/053.xml",
+        "path_type": "hardlink",
+        "sha256": "cb72801034f2a474a26b5626f9d838fd8af941e1638f4eff7e80cf80fef2ad0a",
+        "sha256_in_prefix": "cb72801034f2a474a26b5626f9d838fd8af941e1638f4eff7e80cf80fef2ad0a",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/054-import-expression.pt",
+        "path_type": "hardlink",
+        "sha256": "df750e9cc76e128b12040aab10d384b00538ab16b979e1d8ff6b3921da73fa6e",
+        "sha256_in_prefix": "df750e9cc76e128b12040aab10d384b00538ab16b979e1d8ff6b3921da73fa6e",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/054.xml",
+        "path_type": "hardlink",
+        "sha256": "f94598b084dfc228e201bc10e459f9f7800017a155dcdb26947cc8190be3dc7d",
+        "sha256_in_prefix": "f94598b084dfc228e201bc10e459f9f7800017a155dcdb26947cc8190be3dc7d",
+        "size_in_bytes": 72
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/055-attribute-fallback-to-dict-lookup.pt",
+        "path_type": "hardlink",
+        "sha256": "835d377075a0e3fe875491332999313fa6c5faf78e8dddde9ab2c9bd11b2d42d",
+        "sha256_in_prefix": "835d377075a0e3fe875491332999313fa6c5faf78e8dddde9ab2c9bd11b2d42d",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/055.xml",
+        "path_type": "hardlink",
+        "sha256": "8f41394ffe59a06c8d847172384bd660cfe1154f7883e4937c30e0daceb4f8d5",
+        "sha256_in_prefix": "8f41394ffe59a06c8d847172384bd660cfe1154f7883e4937c30e0daceb4f8d5",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/056-comment-attribute.pt",
+        "path_type": "hardlink",
+        "sha256": "f8de0172b84b10b5ad5f244de24542a41ae4c15db77f6211040ab499cd563b73",
+        "sha256_in_prefix": "f8de0172b84b10b5ad5f244de24542a41ae4c15db77f6211040ab499cd563b73",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/056.xml",
+        "path_type": "hardlink",
+        "sha256": "15e9574c4d73246077a86334df3e0ab797e0c80c33ec06cbccd18d2641eb1705",
+        "sha256_in_prefix": "15e9574c4d73246077a86334df3e0ab797e0c80c33ec06cbccd18d2641eb1705",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/057-order.pt",
+        "path_type": "hardlink",
+        "sha256": "6eae7903680b504f0e8a6a78f604de9ad8c0f7254cb4df68f0bd8e5d2a1038d9",
+        "sha256_in_prefix": "6eae7903680b504f0e8a6a78f604de9ad8c0f7254cb4df68f0bd8e5d2a1038d9",
+        "size_in_bytes": 202
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/057.xml",
+        "path_type": "hardlink",
+        "sha256": "5614b7bbb4a87571c319dcf26a43b8467e2620ce3dcf8b9e044f2b8ac97c7408",
+        "sha256_in_prefix": "5614b7bbb4a87571c319dcf26a43b8467e2620ce3dcf8b9e044f2b8ac97c7408",
+        "size_in_bytes": 55
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/058-script.pt",
+        "path_type": "hardlink",
+        "sha256": "f9641279a94ef508c564bd630d02c60a8df08a9dd4daa2ee0fe7ab8aee217079",
+        "sha256_in_prefix": "f9641279a94ef508c564bd630d02c60a8df08a9dd4daa2ee0fe7ab8aee217079",
+        "size_in_bytes": 378
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/058.xml",
+        "path_type": "hardlink",
+        "sha256": "39bbe31e5a853122a02f4913b87e636c92b26427b953d195b4311def1f615cfe",
+        "sha256_in_prefix": "39bbe31e5a853122a02f4913b87e636c92b26427b953d195b4311def1f615cfe",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/059-embedded-javascript.pt",
+        "path_type": "hardlink",
+        "sha256": "6ff948ff48d94ed8d866e552c8254cd6f929581a1b62406b5a6c05e56284e08e",
+        "sha256_in_prefix": "6ff948ff48d94ed8d866e552c8254cd6f929581a1b62406b5a6c05e56284e08e",
+        "size_in_bytes": 174
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/059.xml",
+        "path_type": "hardlink",
+        "sha256": "3ed293d5b7626e52670bdfc7b5fb98c632e06889bbd2275bc505005212bd8d22",
+        "sha256_in_prefix": "3ed293d5b7626e52670bdfc7b5fb98c632e06889bbd2275bc505005212bd8d22",
+        "size_in_bytes": 227
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/060-macro-with-multiple-same-slots.pt",
+        "path_type": "hardlink",
+        "sha256": "21a6a1d9f9d28cd6c33df7c4fcb429666bd2865f06948b8b32cc410fd227450d",
+        "sha256_in_prefix": "21a6a1d9f9d28cd6c33df7c4fcb429666bd2865f06948b8b32cc410fd227450d",
+        "size_in_bytes": 223
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/060.xml",
+        "path_type": "hardlink",
+        "sha256": "8cd9b925091421aa3541699474f23dd0f93261abf570592d5584b8940fd6d620",
+        "sha256_in_prefix": "8cd9b925091421aa3541699474f23dd0f93261abf570592d5584b8940fd6d620",
+        "size_in_bytes": 67
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/061-fill-one-slot-but-two-defined.pt",
+        "path_type": "hardlink",
+        "sha256": "8766824b9d300bcbaa7bfb651fef4698406342d546dd9d1bbfd6c89b467fceb3",
+        "sha256_in_prefix": "8766824b9d300bcbaa7bfb651fef4698406342d546dd9d1bbfd6c89b467fceb3",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/061.xml",
+        "path_type": "hardlink",
+        "sha256": "6839d2006b461c57745fb5428b2d79c8d8a4009db38767244569451e3010bf05",
+        "sha256_in_prefix": "6839d2006b461c57745fb5428b2d79c8d8a4009db38767244569451e3010bf05",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/062-comments-and-expressions.pt",
+        "path_type": "hardlink",
+        "sha256": "dccf157e523c7dc31ad2a9fd2a8bc944c9d2318e0e3f1d266916beb14319f681",
+        "sha256_in_prefix": "dccf157e523c7dc31ad2a9fd2a8bc944c9d2318e0e3f1d266916beb14319f681",
+        "size_in_bytes": 372
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/062.xml",
+        "path_type": "hardlink",
+        "sha256": "17c0964b48d0b81965e07d5d98b74d1c8363337ba89a7641ea7272809748925e",
+        "sha256_in_prefix": "17c0964b48d0b81965e07d5d98b74d1c8363337ba89a7641ea7272809748925e",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/063-continuation.pt",
+        "path_type": "hardlink",
+        "sha256": "37da7d9d388795720965a468e8150066c96a1644a62e18170957c280c758240b",
+        "sha256_in_prefix": "37da7d9d388795720965a468e8150066c96a1644a62e18170957c280c758240b",
+        "size_in_bytes": 67
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/063.xml",
+        "path_type": "hardlink",
+        "sha256": "803057ec644235189072d9481866fc3c7cb31063df6c86e156bd13bf2c5283f7",
+        "sha256_in_prefix": "803057ec644235189072d9481866fc3c7cb31063df6c86e156bd13bf2c5283f7",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/064-tags-and-special-characters.pt",
+        "path_type": "hardlink",
+        "sha256": "d15956b4387011a331d57f3c86bbf10644faad16992c417f82c91610c0c6ef34",
+        "sha256_in_prefix": "d15956b4387011a331d57f3c86bbf10644faad16992c417f82c91610c0c6ef34",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/064.xml",
+        "path_type": "hardlink",
+        "sha256": "62905d8d94c5a7d48823915cecb2a0cba8fbe89fce37cafc3efb106203a194f0",
+        "sha256_in_prefix": "62905d8d94c5a7d48823915cecb2a0cba8fbe89fce37cafc3efb106203a194f0",
+        "size_in_bytes": 79
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/065-use-macro-in-fill.pt",
+        "path_type": "hardlink",
+        "sha256": "df70cf8e057438df59b9c704d84b0a8a04e42ed33509f88265c7890c6e5d9d06",
+        "sha256_in_prefix": "df70cf8e057438df59b9c704d84b0a8a04e42ed33509f88265c7890c6e5d9d06",
+        "size_in_bytes": 276
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/065.xml",
+        "path_type": "hardlink",
+        "sha256": "2440ceb88149c3ba758b2f77164079800f07b4fe64934aea643e53b5a0e20bfc",
+        "sha256_in_prefix": "2440ceb88149c3ba758b2f77164079800f07b4fe64934aea643e53b5a0e20bfc",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/066-load-expression.pt",
+        "path_type": "hardlink",
+        "sha256": "4f6aa40b470f2b4af2e6388521262814c06962b535d8e976ef23fc75a824830c",
+        "sha256_in_prefix": "4f6aa40b470f2b4af2e6388521262814c06962b535d8e976ef23fc75a824830c",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/066.xml",
+        "path_type": "hardlink",
+        "sha256": "fc550db3464a5c51b45162368720f560df8cb756019d0b52884c98beecb3c3b6",
+        "sha256_in_prefix": "fc550db3464a5c51b45162368720f560df8cb756019d0b52884c98beecb3c3b6",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/067-attribute-decode.pt",
+        "path_type": "hardlink",
+        "sha256": "acbd9840d2362a6ce3aad9921b0e71718df56294171e552dbf5e3ad372003249",
+        "sha256_in_prefix": "acbd9840d2362a6ce3aad9921b0e71718df56294171e552dbf5e3ad372003249",
+        "size_in_bytes": 201
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/067.xml",
+        "path_type": "hardlink",
+        "sha256": "b5210ed6fbad8439af0e5a7d514ca5ddc21f5d31e4be38fa3a7a7d85adb7f4f9",
+        "sha256_in_prefix": "b5210ed6fbad8439af0e5a7d514ca5ddc21f5d31e4be38fa3a7a7d85adb7f4f9",
+        "size_in_bytes": 65
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/068-less-than-greater-than-in-attributes.pt",
+        "path_type": "hardlink",
+        "sha256": "15264b7ab5dbb3d75da8339eb604eb595b76146e9faab1df88c544454bbb0dbf",
+        "sha256_in_prefix": "15264b7ab5dbb3d75da8339eb604eb595b76146e9faab1df88c544454bbb0dbf",
+        "size_in_bytes": 210
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/068.xml",
+        "path_type": "hardlink",
+        "sha256": "70554ede2f457750980a032908c348ef1dec605a15edb76ba3c4d8a673be2566",
+        "sha256_in_prefix": "70554ede2f457750980a032908c348ef1dec605a15edb76ba3c4d8a673be2566",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/069-translation-domain-and-macro.pt",
+        "path_type": "hardlink",
+        "sha256": "8c1959cbec3004c2c4b459c31fa0892c01f7d41862cf5cc32992b24f946365d0",
+        "sha256_in_prefix": "8c1959cbec3004c2c4b459c31fa0892c01f7d41862cf5cc32992b24f946365d0",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/069.xml",
+        "path_type": "hardlink",
+        "sha256": "66e4c40d6eda52f783783480d85929f3bc145fdb4f059d159c70a707d6b720d2",
+        "sha256_in_prefix": "66e4c40d6eda52f783783480d85929f3bc145fdb4f059d159c70a707d6b720d2",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/070-translation-domain-and-use-macro.pt",
+        "path_type": "hardlink",
+        "sha256": "d0910805ef5a622c02dbb3d6aed636c5a2c5b70880db118985d4365c214b8946",
+        "sha256_in_prefix": "d0910805ef5a622c02dbb3d6aed636c5a2c5b70880db118985d4365c214b8946",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/070.xml",
+        "path_type": "hardlink",
+        "sha256": "84776aec8db01e839bf27de07e95ac36400ea72a933663b1f628003191a5345e",
+        "sha256_in_prefix": "84776aec8db01e839bf27de07e95ac36400ea72a933663b1f628003191a5345e",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/071-html-attribute-defaults.pt",
+        "path_type": "hardlink",
+        "sha256": "822b5b1aa9b908de0b74e7a54f724b046c211d552f403cefb73aa12ce4dbf6d6",
+        "sha256_in_prefix": "822b5b1aa9b908de0b74e7a54f724b046c211d552f403cefb73aa12ce4dbf6d6",
+        "size_in_bytes": 555
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/071.xml",
+        "path_type": "hardlink",
+        "sha256": "62cc90a217eb4394185b645e008424b8a15e4fe9d55f7e63f8206cf4686ca3f2",
+        "sha256_in_prefix": "62cc90a217eb4394185b645e008424b8a15e4fe9d55f7e63f8206cf4686ca3f2",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/072-repeat-interpolation.pt",
+        "path_type": "hardlink",
+        "sha256": "2b8d9a0f7e214ed0c50cabb694c98b22dfe2317f877842684f72c0dd9baa00e9",
+        "sha256_in_prefix": "2b8d9a0f7e214ed0c50cabb694c98b22dfe2317f877842684f72c0dd9baa00e9",
+        "size_in_bytes": 359
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/072.xml",
+        "path_type": "hardlink",
+        "sha256": "8e3c413dffee2aabaffa370f020e2b5eb0f2e663131e4413980d5358f27adeea",
+        "sha256_in_prefix": "8e3c413dffee2aabaffa370f020e2b5eb0f2e663131e4413980d5358f27adeea",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/073-utf8-encoded.pt",
+        "path_type": "hardlink",
+        "sha256": "e908e0582235d487fff5f0699e576ecb4f3f870ab6d52b11f9c30fcb69c12e5e",
+        "sha256_in_prefix": "e908e0582235d487fff5f0699e576ecb4f3f870ab6d52b11f9c30fcb69c12e5e",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/073.xml",
+        "path_type": "hardlink",
+        "sha256": "93d9f5d7e9e04fde822f6e79ecafbf82ab4357ba910bdb2af2fc09aed114a7ed",
+        "sha256_in_prefix": "93d9f5d7e9e04fde822f6e79ecafbf82ab4357ba910bdb2af2fc09aed114a7ed",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/074-encoded-template.pt",
+        "path_type": "hardlink",
+        "sha256": "580156795d4dada14525569339b2ae188d33a4fe6589aca54748b0731846029f",
+        "sha256_in_prefix": "580156795d4dada14525569339b2ae188d33a4fe6589aca54748b0731846029f",
+        "size_in_bytes": 169
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/074.xml",
+        "path_type": "hardlink",
+        "sha256": "cf3d86e2ce1eaf74780379aacd10a5622a30d257dffe817d68f247f69f4af2aa",
+        "sha256_in_prefix": "cf3d86e2ce1eaf74780379aacd10a5622a30d257dffe817d68f247f69f4af2aa",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/075-nested-macros.pt",
+        "path_type": "hardlink",
+        "sha256": "4991c80d2043055cebbba6f8642b028b8beb170a5973d5243f7c852e43dc36b8",
+        "sha256_in_prefix": "4991c80d2043055cebbba6f8642b028b8beb170a5973d5243f7c852e43dc36b8",
+        "size_in_bytes": 282
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/075.xml",
+        "path_type": "hardlink",
+        "sha256": "fa3a52309acd2c525769a5cec1385eafd72cb3a6b6f2fb337929b0d0aee53732",
+        "sha256_in_prefix": "fa3a52309acd2c525769a5cec1385eafd72cb3a6b6f2fb337929b0d0aee53732",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/076-nested-macro-override.pt",
+        "path_type": "hardlink",
+        "sha256": "5c71034d754645d4d7309dbaf4ae32e66461b6b35196803a172b14779280eace",
+        "sha256_in_prefix": "5c71034d754645d4d7309dbaf4ae32e66461b6b35196803a172b14779280eace",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/076.xml",
+        "path_type": "hardlink",
+        "sha256": "92e3fdfc55940f38c1fab2e5c8fa982c97d62161df38e2a708c6744df2aab738",
+        "sha256_in_prefix": "92e3fdfc55940f38c1fab2e5c8fa982c97d62161df38e2a708c6744df2aab738",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/077-i18n-attributes.pt",
+        "path_type": "hardlink",
+        "sha256": "96cd933b3bb9dcb537cf74915d9122bb4d94e34dba46e394ab2f23f1193365be",
+        "sha256_in_prefix": "96cd933b3bb9dcb537cf74915d9122bb4d94e34dba46e394ab2f23f1193365be",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/077.xml",
+        "path_type": "hardlink",
+        "sha256": "5b2bad9083c1f1f5d37d3941328ce2603bffc6721258f693ed3381409644beb6",
+        "sha256_in_prefix": "5b2bad9083c1f1f5d37d3941328ce2603bffc6721258f693ed3381409644beb6",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/078-tags-and-newlines.pt",
+        "path_type": "hardlink",
+        "sha256": "6c3943a1f8416a1297063e97ee8900545433f0e8dd6e22e7117e395d1c0c8369",
+        "sha256_in_prefix": "6c3943a1f8416a1297063e97ee8900545433f0e8dd6e22e7117e395d1c0c8369",
+        "size_in_bytes": 798
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/078.xml",
+        "path_type": "hardlink",
+        "sha256": "7c3d10a81827dd1b76f1b03b0b0fcbcfc6a3127bd1786ad0471f76d9db8202d3",
+        "sha256_in_prefix": "7c3d10a81827dd1b76f1b03b0b0fcbcfc6a3127bd1786ad0471f76d9db8202d3",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/079-implicit-i18n.pt",
+        "path_type": "hardlink",
+        "sha256": "2f78fda7efdf9b72c8e51cf8acac1fe4b4aa73706fc7ccfff416eee36832e010",
+        "sha256_in_prefix": "2f78fda7efdf9b72c8e51cf8acac1fe4b4aa73706fc7ccfff416eee36832e010",
+        "size_in_bytes": 420
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/079.xml",
+        "path_type": "hardlink",
+        "sha256": "618f157658c0977dff9337ebe2e1102e46ca61126b8a74d3ed59064393aebb23",
+        "sha256_in_prefix": "618f157658c0977dff9337ebe2e1102e46ca61126b8a74d3ed59064393aebb23",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/080-xmlns-namespace-on-tal.pt",
+        "path_type": "hardlink",
+        "sha256": "82ac2d43d3b891c244a77cd860af364ecd68cb69cbf598ff89992b05b0368cf4",
+        "sha256_in_prefix": "82ac2d43d3b891c244a77cd860af364ecd68cb69cbf598ff89992b05b0368cf4",
+        "size_in_bytes": 250
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/080.xml",
+        "path_type": "hardlink",
+        "sha256": "a7605ec929ca6f99108aeac48ced70960820b4b38a4527bc71011395bd4f693c",
+        "sha256_in_prefix": "a7605ec929ca6f99108aeac48ced70960820b4b38a4527bc71011395bd4f693c",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/081-load-spec.pt",
+        "path_type": "hardlink",
+        "sha256": "fd9e1f05d516f2c7d5b9a0deabafa36b5ef3dbe4339ef4e9afb43bf8421c5d04",
+        "sha256_in_prefix": "fd9e1f05d516f2c7d5b9a0deabafa36b5ef3dbe4339ef4e9afb43bf8421c5d04",
+        "size_in_bytes": 70
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/081.xml",
+        "path_type": "hardlink",
+        "sha256": "b9234b10e867139ecec22ac24c7788cf296a2446b21523a74edf37eee728391a",
+        "sha256_in_prefix": "b9234b10e867139ecec22ac24c7788cf296a2446b21523a74edf37eee728391a",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/082-load-spec-computed.pt",
+        "path_type": "hardlink",
+        "sha256": "7a3b97b284e2044a6d4e89c3e611a56530873ca437461bb574157f323ed1028d",
+        "sha256_in_prefix": "7a3b97b284e2044a6d4e89c3e611a56530873ca437461bb574157f323ed1028d",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/082.xml",
+        "path_type": "hardlink",
+        "sha256": "3082a74d9879dbd429b04aa3afeba16d689b579534a381cba83d788b86e6affe",
+        "sha256_in_prefix": "3082a74d9879dbd429b04aa3afeba16d689b579534a381cba83d788b86e6affe",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/083-template-dict-to-macro.pt",
+        "path_type": "hardlink",
+        "sha256": "7708b7d8dd25a3c4aaa262364e89636e6e2ec6a848d84a9f0fa4cee4d23537c6",
+        "sha256_in_prefix": "7708b7d8dd25a3c4aaa262364e89636e6e2ec6a848d84a9f0fa4cee4d23537c6",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/083.xml",
+        "path_type": "hardlink",
+        "sha256": "adcca2a37ee2ff297a97b0b34d1b1a1c73bd6bebcadeec866e011d41b1f6d835",
+        "sha256_in_prefix": "adcca2a37ee2ff297a97b0b34d1b1a1c73bd6bebcadeec866e011d41b1f6d835",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/084-interpolation-in-cdata.pt",
+        "path_type": "hardlink",
+        "sha256": "e51b4673f341876037caf58cedd7802d4bb9926dbdb9ee1e836e90173eeb0909",
+        "sha256_in_prefix": "e51b4673f341876037caf58cedd7802d4bb9926dbdb9ee1e836e90173eeb0909",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/084.xml",
+        "path_type": "hardlink",
+        "sha256": "058be2e142fd46834c9c0ff7bf92cb8777f5c3f3352141031044f9b118e94f69",
+        "sha256_in_prefix": "058be2e142fd46834c9c0ff7bf92cb8777f5c3f3352141031044f9b118e94f69",
+        "size_in_bytes": 54
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/085-nested-translation.pt",
+        "path_type": "hardlink",
+        "sha256": "fc104839e6dd3c5a84abb9d25e78b73170a76b79b79461a1b1377d6a66a13556",
+        "sha256_in_prefix": "fc104839e6dd3c5a84abb9d25e78b73170a76b79b79461a1b1377d6a66a13556",
+        "size_in_bytes": 309
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/085.xml",
+        "path_type": "hardlink",
+        "sha256": "48c5530338f9670ad5c2a73ceac3432e87b45e85443d966f15be624885802bf0",
+        "sha256_in_prefix": "48c5530338f9670ad5c2a73ceac3432e87b45e85443d966f15be624885802bf0",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/086-self-closing.pt",
+        "path_type": "hardlink",
+        "sha256": "13ac271e559ce32b6e4d2bb9efbcc07f5fb96be0b9a19b6fe58c7888f6b6c088",
+        "sha256_in_prefix": "13ac271e559ce32b6e4d2bb9efbcc07f5fb96be0b9a19b6fe58c7888f6b6c088",
+        "size_in_bytes": 251
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/086.xml",
+        "path_type": "hardlink",
+        "sha256": "f79c6f1553618062792b3f0f4e994cb47bae2c979e01c0160c37e1b91f010b85",
+        "sha256_in_prefix": "f79c6f1553618062792b3f0f4e994cb47bae2c979e01c0160c37e1b91f010b85",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/087-code-blocks.pt",
+        "path_type": "hardlink",
+        "sha256": "e3a7886821e1d307d7c296813afea8dd2686c7a1825f58d8832dafdc8d18434a",
+        "sha256_in_prefix": "e3a7886821e1d307d7c296813afea8dd2686c7a1825f58d8832dafdc8d18434a",
+        "size_in_bytes": 443
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/087.xml",
+        "path_type": "hardlink",
+        "sha256": "19b41d5d06f2a3110b948f3043e06b6de382e04f9f0dbbf2cb793345be75ae0c",
+        "sha256_in_prefix": "19b41d5d06f2a3110b948f3043e06b6de382e04f9f0dbbf2cb793345be75ae0c",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/088-python-newlines.pt",
+        "path_type": "hardlink",
+        "sha256": "36ccaa70a804914f83fc397fbc729af0eafa975fa044ac206b1c22c16b696658",
+        "sha256_in_prefix": "36ccaa70a804914f83fc397fbc729af0eafa975fa044ac206b1c22c16b696658",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/088.xml",
+        "path_type": "hardlink",
+        "sha256": "c7cdf78d74a75ea11e95a3ec2c3d8a55c019f94eacc0b9b8fbebd63850994750",
+        "sha256_in_prefix": "c7cdf78d74a75ea11e95a3ec2c3d8a55c019f94eacc0b9b8fbebd63850994750",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/089-load-fallback.pt",
+        "path_type": "hardlink",
+        "sha256": "5f2c21235437baca7c1bfe09752204e5844478831387b98bf108d26bd873bdb1",
+        "sha256_in_prefix": "5f2c21235437baca7c1bfe09752204e5844478831387b98bf108d26bd873bdb1",
+        "size_in_bytes": 124
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/089.xml",
+        "path_type": "hardlink",
+        "sha256": "86e26104dabd435f92dc91431cbedc15474327f3a5c3b8652c8a61351acbe5ca",
+        "sha256_in_prefix": "86e26104dabd435f92dc91431cbedc15474327f3a5c3b8652c8a61351acbe5ca",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/090-tuple-expression.pt",
+        "path_type": "hardlink",
+        "sha256": "dfb461ad722a74cbc28db148ae77e4ceba8c03305176cf97354a12932404187e",
+        "sha256_in_prefix": "dfb461ad722a74cbc28db148ae77e4ceba8c03305176cf97354a12932404187e",
+        "size_in_bytes": 289
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/090.xml",
+        "path_type": "hardlink",
+        "sha256": "793f6032c33f4fafa13f93e20568172147c80590b74aca8f020447f47ad06804",
+        "sha256_in_prefix": "793f6032c33f4fafa13f93e20568172147c80590b74aca8f020447f47ad06804",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/091-repeat-none.pt",
+        "path_type": "hardlink",
+        "sha256": "7b2129b08af6c5b89d584b08f01aa63aca2a3ea2ecc24f3a7628d1a0536ea7ac",
+        "sha256_in_prefix": "7b2129b08af6c5b89d584b08f01aa63aca2a3ea2ecc24f3a7628d1a0536ea7ac",
+        "size_in_bytes": 75
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/091.xml",
+        "path_type": "hardlink",
+        "sha256": "c0747b2aa09bbb96d70b03bfba6a9585e32b61492a4fa2c858d5d4439f0b3278",
+        "sha256_in_prefix": "c0747b2aa09bbb96d70b03bfba6a9585e32b61492a4fa2c858d5d4439f0b3278",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/092.xml",
+        "path_type": "hardlink",
+        "sha256": "10b404e2ea901fdbf8e781574ce2548fd5c1e15fe6d3b08ec1ecd332bd02dfb1",
+        "sha256_in_prefix": "10b404e2ea901fdbf8e781574ce2548fd5c1e15fe6d3b08ec1ecd332bd02dfb1",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/093.xml",
+        "path_type": "hardlink",
+        "sha256": "9bbbbbb70e2d75fce1b4cfd54b639e51c9593913585d6decd08746789b68595c",
+        "sha256_in_prefix": "9bbbbbb70e2d75fce1b4cfd54b639e51c9593913585d6decd08746789b68595c",
+        "size_in_bytes": 60
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/094.xml",
+        "path_type": "hardlink",
+        "sha256": "cd2e61b3b0b74c18d8cf1511dcd69bb755cd56a6625c97663695c3f7111fc960",
+        "sha256_in_prefix": "cd2e61b3b0b74c18d8cf1511dcd69bb755cd56a6625c97663695c3f7111fc960",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/095.xml",
+        "path_type": "hardlink",
+        "sha256": "47ff460f33dded1f61b5568606de09278ffbeb9d0459ffdd793ffd6d02b0d24e",
+        "sha256_in_prefix": "47ff460f33dded1f61b5568606de09278ffbeb9d0459ffdd793ffd6d02b0d24e",
+        "size_in_bytes": 141
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/096.xml",
+        "path_type": "hardlink",
+        "sha256": "2e1bf00ea9a490d8b4ebf57267fb08009c6e4f3f908f4fe97da7af9d329d3608",
+        "sha256_in_prefix": "2e1bf00ea9a490d8b4ebf57267fb08009c6e4f3f908f4fe97da7af9d329d3608",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/097.xml",
+        "path_type": "hardlink",
+        "sha256": "d06c7bddd87726fa9aed8b5520bef140aef5157c1a70cd45df95963ebb9e2826",
+        "sha256_in_prefix": "d06c7bddd87726fa9aed8b5520bef140aef5157c1a70cd45df95963ebb9e2826",
+        "size_in_bytes": 157
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/098.xml",
+        "path_type": "hardlink",
+        "sha256": "de0ba1d0bc800c1eae71b453007a59e41a2bc65a43b781c8b9e7a4eac126ede7",
+        "sha256_in_prefix": "de0ba1d0bc800c1eae71b453007a59e41a2bc65a43b781c8b9e7a4eac126ede7",
+        "size_in_bytes": 71
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/099.xml",
+        "path_type": "hardlink",
+        "sha256": "d0d637735835b048adc8985a7282b4e0f2f3f3c0fba39816b77ff43da279c134",
+        "sha256_in_prefix": "d0d637735835b048adc8985a7282b4e0f2f3f3c0fba39816b77ff43da279c134",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/100.xml",
+        "path_type": "hardlink",
+        "sha256": "483aedb0f1f6c5862f2e2e57e3ed60fe49d66fb3d3c516c4c3892a222ddf4930",
+        "sha256_in_prefix": "483aedb0f1f6c5862f2e2e57e3ed60fe49d66fb3d3c516c4c3892a222ddf4930",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/101-unclosed-tags.html",
+        "path_type": "hardlink",
+        "sha256": "6e1cf77ba7144377e2275e44948385c017fd71ac5c4cbc97ee0f53710cc745da",
+        "sha256_in_prefix": "6e1cf77ba7144377e2275e44948385c017fd71ac5c4cbc97ee0f53710cc745da",
+        "size_in_bytes": 67
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/101.xml",
+        "path_type": "hardlink",
+        "sha256": "4cba4af1570a1688061e7ed048f6ac7aa20bd5107b7b2492565decedbfab6d54",
+        "sha256_in_prefix": "4cba4af1570a1688061e7ed048f6ac7aa20bd5107b7b2492565decedbfab6d54",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/102-unquoted-attributes.html",
+        "path_type": "hardlink",
+        "sha256": "9c78dbc7cea1dfc848436e223a1714aebdf78f6c935861f5646cde10d36faa17",
+        "sha256_in_prefix": "9c78dbc7cea1dfc848436e223a1714aebdf78f6c935861f5646cde10d36faa17",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/102.xml",
+        "path_type": "hardlink",
+        "sha256": "d491db40b9119d4a5da6922418f473a155828fd21a7904ad4c6ac98301e8fb2c",
+        "sha256_in_prefix": "d491db40b9119d4a5da6922418f473a155828fd21a7904ad4c6ac98301e8fb2c",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/103-simple-attribute.html",
+        "path_type": "hardlink",
+        "sha256": "3bc0d6a7642a6633034ca0231caf6468033ccc201d1fac7ac17079c535129e55",
+        "sha256_in_prefix": "3bc0d6a7642a6633034ca0231caf6468033ccc201d1fac7ac17079c535129e55",
+        "size_in_bytes": 208
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/103.xml",
+        "path_type": "hardlink",
+        "sha256": "b4b22f175f372a0f2fc75f86e555d830646935134c478e7aeea1d47e284267c4",
+        "sha256_in_prefix": "b4b22f175f372a0f2fc75f86e555d830646935134c478e7aeea1d47e284267c4",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/104.xml",
+        "path_type": "hardlink",
+        "sha256": "316107ccc120a317814728d3a433b7e58b6d2ec33d2c693e4d18053bf8ab8338",
+        "sha256_in_prefix": "316107ccc120a317814728d3a433b7e58b6d2ec33d2c693e4d18053bf8ab8338",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/105.xml",
+        "path_type": "hardlink",
+        "sha256": "be6b19e6184e189015947784c4a8c744b7aeb77402a918ebf1a25a3c6b742425",
+        "sha256_in_prefix": "be6b19e6184e189015947784c4a8c744b7aeb77402a918ebf1a25a3c6b742425",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/106.xml",
+        "path_type": "hardlink",
+        "sha256": "f46c7eafcbc92b937ca5bbbb5ed2b6f57c76f2147e0e7bcdcad1aa7f18105aae",
+        "sha256_in_prefix": "f46c7eafcbc92b937ca5bbbb5ed2b6f57c76f2147e0e7bcdcad1aa7f18105aae",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/107.xml",
+        "path_type": "hardlink",
+        "sha256": "6a2a33c3aa191c7d6ed42782a7bd49aed6c260b43265829ccfbd8988f189e857",
+        "sha256_in_prefix": "6a2a33c3aa191c7d6ed42782a7bd49aed6c260b43265829ccfbd8988f189e857",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/108.xml",
+        "path_type": "hardlink",
+        "sha256": "75c81335a7a4bd62b1c56d50690b82b51cbfcb8996547144129d3008d013a62e",
+        "sha256_in_prefix": "75c81335a7a4bd62b1c56d50690b82b51cbfcb8996547144129d3008d013a62e",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/109.xml",
+        "path_type": "hardlink",
+        "sha256": "9279d07cd2ab2d8d79834205255327ec09096a005c8cecc8fbd7329f7281ee57",
+        "sha256_in_prefix": "9279d07cd2ab2d8d79834205255327ec09096a005c8cecc8fbd7329f7281ee57",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/110.xml",
+        "path_type": "hardlink",
+        "sha256": "6e02e756f625281074560ef5dc2ad85fce8e5bdcdc2f3b3107967b2b0d5cee2a",
+        "sha256_in_prefix": "6e02e756f625281074560ef5dc2ad85fce8e5bdcdc2f3b3107967b2b0d5cee2a",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/111.xml",
+        "path_type": "hardlink",
+        "sha256": "70a0207bccf5a1b6258cf660be90f368f6e5d477da4c97e3b706c3ddc7062f67",
+        "sha256_in_prefix": "70a0207bccf5a1b6258cf660be90f368f6e5d477da4c97e3b706c3ddc7062f67",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/112.xml",
+        "path_type": "hardlink",
+        "sha256": "f923229633888a952383ae87ec2ad1086d7e357539bd96b35c2c8dd589929444",
+        "sha256_in_prefix": "f923229633888a952383ae87ec2ad1086d7e357539bd96b35c2c8dd589929444",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/113.xml",
+        "path_type": "hardlink",
+        "sha256": "ad68b9884e9e5003eda31c7394b127ba0013cbffe9e125aa62a51fba5d47e497",
+        "sha256_in_prefix": "ad68b9884e9e5003eda31c7394b127ba0013cbffe9e125aa62a51fba5d47e497",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/114.xml",
+        "path_type": "hardlink",
+        "sha256": "90bf2a83c85d898c2fa631aea149a44dd8621feeb37dfaea4e2a30a2fbc7488d",
+        "sha256_in_prefix": "90bf2a83c85d898c2fa631aea149a44dd8621feeb37dfaea4e2a30a2fbc7488d",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/115.xml",
+        "path_type": "hardlink",
+        "sha256": "738337bb46c142f6950825850fe9c93c54fbb7fe06772181ce118f3a321de01c",
+        "sha256_in_prefix": "738337bb46c142f6950825850fe9c93c54fbb7fe06772181ce118f3a321de01c",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/116.xml",
+        "path_type": "hardlink",
+        "sha256": "ae776a7be0ccdfc140c350193f48211c8a9c29e20ced187e7ff2d9e840542078",
+        "sha256_in_prefix": "ae776a7be0ccdfc140c350193f48211c8a9c29e20ced187e7ff2d9e840542078",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/117.xml",
+        "path_type": "hardlink",
+        "sha256": "298b129881b69782c2767d085029e7585dd34f57ec3250f47cf073d8d1ed5627",
+        "sha256_in_prefix": "298b129881b69782c2767d085029e7585dd34f57ec3250f47cf073d8d1ed5627",
+        "size_in_bytes": 86
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/118.xml",
+        "path_type": "hardlink",
+        "sha256": "21b2892b4b7621b92fd66a50aa0ff187796ad59990693f5416f5e4574547d7f3",
+        "sha256_in_prefix": "21b2892b4b7621b92fd66a50aa0ff187796ad59990693f5416f5e4574547d7f3",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/119.xml",
+        "path_type": "hardlink",
+        "sha256": "5dd41a8b2a65321be72282e811e04279590ba189c3ec6f0893e522928072c9cc",
+        "sha256_in_prefix": "5dd41a8b2a65321be72282e811e04279590ba189c3ec6f0893e522928072c9cc",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/120-translation-context.pt",
+        "path_type": "hardlink",
+        "sha256": "8d10b3175f1de64639f333f8fe47009c2601bf05fb67a85e34cb3b7aeacc3777",
+        "sha256_in_prefix": "8d10b3175f1de64639f333f8fe47009c2601bf05fb67a85e34cb3b7aeacc3777",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/121-translation-comment.pt",
+        "path_type": "hardlink",
+        "sha256": "9552d26708222301ce4679b1f3de98b9d86094fea4f6019dcb4dbb9fa41cce01",
+        "sha256_in_prefix": "9552d26708222301ce4679b1f3de98b9d86094fea4f6019dcb4dbb9fa41cce01",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/122-translation-ignore.pt",
+        "path_type": "hardlink",
+        "sha256": "810a97cd9c96683d9ff24770b3de4ea2f843ae1f09b98856be8c369a8bb11d08",
+        "sha256_in_prefix": "810a97cd9c96683d9ff24770b3de4ea2f843ae1f09b98856be8c369a8bb11d08",
+        "size_in_bytes": 225
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/123-html5-data-attributes.pt",
+        "path_type": "hardlink",
+        "sha256": "12fb39e6849aaf8b0fea4fa974b6cf81592f1bce5e7767b86d539e3e5a5f88b4",
+        "sha256_in_prefix": "12fb39e6849aaf8b0fea4fa974b6cf81592f1bce5e7767b86d539e3e5a5f88b4",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/124-translation-target.pt",
+        "path_type": "hardlink",
+        "sha256": "9fe762597583aef080c8cc5f19fb6d0b74bb8043bf3c0cfbde84773ad242bf7e",
+        "sha256_in_prefix": "9fe762597583aef080c8cc5f19fb6d0b74bb8043bf3c0cfbde84773ad242bf7e",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/125-macro-translation-ordering.pt",
+        "path_type": "hardlink",
+        "sha256": "9b43d45fe042ffb1b0f6dcbff023faccdfd230aa65da41e875d2995eb89b9228",
+        "sha256_in_prefix": "9b43d45fe042ffb1b0f6dcbff023faccdfd230aa65da41e875d2995eb89b9228",
+        "size_in_bytes": 370
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/126-define-escaping.pt",
+        "path_type": "hardlink",
+        "sha256": "63583b88056e971e92375d8da86ac165806fad84b0f80970c3000070eadb20c8",
+        "sha256_in_prefix": "63583b88056e971e92375d8da86ac165806fad84b0f80970c3000070eadb20c8",
+        "size_in_bytes": 232
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/238-macroname.pt",
+        "path_type": "hardlink",
+        "sha256": "6b3fb9b6d079658392163f10251f56a965e290d0410a503f3f42befd1ac67c01",
+        "sha256_in_prefix": "6b3fb9b6d079658392163f10251f56a965e290d0410a503f3f42befd1ac67c01",
+        "size_in_bytes": 219
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/greeting.pt",
+        "path_type": "hardlink",
+        "sha256": "07eff43046227d10e3b2c5b0c4ae7e9a30c9a8dd2303cbc469fd08063ddf3919",
+        "sha256_in_prefix": "07eff43046227d10e3b2c5b0c4ae7e9a30c9a8dd2303cbc469fd08063ddf3919",
+        "size_in_bytes": 41
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/hello_world.pt",
+        "path_type": "hardlink",
+        "sha256": "6342cd6bd5d51a66ee242c6235ba77881f33adcf42b5e5abaa1a9c8f02799801",
+        "sha256_in_prefix": "6342cd6bd5d51a66ee242c6235ba77881f33adcf42b5e5abaa1a9c8f02799801",
+        "size_in_bytes": 55
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/hello_world.txt",
+        "path_type": "hardlink",
+        "sha256": "2074f5edadb24a14f33d79a7d678fa446e07818cd18fba315062999154435c18",
+        "sha256_in_prefix": "2074f5edadb24a14f33d79a7d678fa446e07818cd18fba315062999154435c18",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "site-packages/chameleon/tests/inputs/multinode-implicit-i18n.pt",
+        "path_type": "hardlink",
+        "sha256": "6c8a4c5dfe3bbac5d1ed97cd912085fdb66bcb6e3bd189ac54259ab692bced56",
+        "sha256_in_prefix": "6c8a4c5dfe3bbac5d1ed97cd912085fdb66bcb6e3bd189ac54259ab692bced56",
+        "size_in_bytes": 47
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/001.html",
+        "path_type": "hardlink",
+        "sha256": "b22455318d694c0c09103af237a77304eb9d75d7ef81cca0e02ec4336b6d9779",
+        "sha256_in_prefix": "b22455318d694c0c09103af237a77304eb9d75d7ef81cca0e02ec4336b6d9779",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/001.pt",
+        "path_type": "hardlink",
+        "sha256": "d3a8930b3bde1b299eb50944467949e80521173a79819c95afeeb804e3d5a95e",
+        "sha256_in_prefix": "d3a8930b3bde1b299eb50944467949e80521173a79819c95afeeb804e3d5a95e",
+        "size_in_bytes": 61
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/001.txt",
+        "path_type": "hardlink",
+        "sha256": "1cf2e9c0ca6b295e54403e817c4f932d245e79050653af335dd0a9e03b02e79c",
+        "sha256_in_prefix": "1cf2e9c0ca6b295e54403e817c4f932d245e79050653af335dd0a9e03b02e79c",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/002.pt",
+        "path_type": "hardlink",
+        "sha256": "ef4244e74e16648988381f6ecbb1149f1cd4bcbdd1d72e474701a24ce02d2988",
+        "sha256_in_prefix": "ef4244e74e16648988381f6ecbb1149f1cd4bcbdd1d72e474701a24ce02d2988",
+        "size_in_bytes": 191
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/003.pt",
+        "path_type": "hardlink",
+        "sha256": "3498d75a199132826f780cb472d2eb22232d5ff908f08a60b5c585c54497acac",
+        "sha256_in_prefix": "3498d75a199132826f780cb472d2eb22232d5ff908f08a60b5c585c54497acac",
+        "size_in_bytes": 355
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/004.pt",
+        "path_type": "hardlink",
+        "sha256": "2453cf752a45f2515efc9558a87083821e63708d4970e91086f5ceb7e29c7429",
+        "sha256_in_prefix": "2453cf752a45f2515efc9558a87083821e63708d4970e91086f5ceb7e29c7429",
+        "size_in_bytes": 672
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/005.pt",
+        "path_type": "hardlink",
+        "sha256": "afae2a0691da35da241f22b35aef3c2cfe14cbacab0819ee04687b2cb6718197",
+        "sha256_in_prefix": "afae2a0691da35da241f22b35aef3c2cfe14cbacab0819ee04687b2cb6718197",
+        "size_in_bytes": 199
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/006.pt",
+        "path_type": "hardlink",
+        "sha256": "51b8b4c87c7b9117db98a3b3f0bc28c00c8954bbeeaec4893340a506a34e4f33",
+        "sha256_in_prefix": "51b8b4c87c7b9117db98a3b3f0bc28c00c8954bbeeaec4893340a506a34e4f33",
+        "size_in_bytes": 252
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/007.pt",
+        "path_type": "hardlink",
+        "sha256": "6b5608abf56a1028b56ea26c878036202bc1915b329c1bd763008a12446345c3",
+        "sha256_in_prefix": "6b5608abf56a1028b56ea26c878036202bc1915b329c1bd763008a12446345c3",
+        "size_in_bytes": 353
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/008.pt",
+        "path_type": "hardlink",
+        "sha256": "cf7a14361eb07e8d8034eb8a6b0f7b9f11b6c1457fda7f72415fad8a78d262d9",
+        "sha256_in_prefix": "cf7a14361eb07e8d8034eb8a6b0f7b9f11b6c1457fda7f72415fad8a78d262d9",
+        "size_in_bytes": 127
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/009.pt",
+        "path_type": "hardlink",
+        "sha256": "0f40581842b63faa3b220fbbfe773bac76df7e155567c9eb1a298c6be6e456df",
+        "sha256_in_prefix": "0f40581842b63faa3b220fbbfe773bac76df7e155567c9eb1a298c6be6e456df",
+        "size_in_bytes": 62
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/010.pt",
+        "path_type": "hardlink",
+        "sha256": "52849cf80f04621b41fa4740434b413776a0363c2377df5ae38a0eb23f2faab6",
+        "sha256_in_prefix": "52849cf80f04621b41fa4740434b413776a0363c2377df5ae38a0eb23f2faab6",
+        "size_in_bytes": 164
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/011-en.pt",
+        "path_type": "hardlink",
+        "sha256": "c97de7056d7a18aba713af3758352d3f69a27b08fc4645200e10e99020c38799",
+        "sha256_in_prefix": "c97de7056d7a18aba713af3758352d3f69a27b08fc4645200e10e99020c38799",
+        "size_in_bytes": 308
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/011.pt",
+        "path_type": "hardlink",
+        "sha256": "c7a9521b73eee66d7566d70fe8aa0e744768cfb1a1eee2a7c8e47910770f3ac8",
+        "sha256_in_prefix": "c7a9521b73eee66d7566d70fe8aa0e744768cfb1a1eee2a7c8e47910770f3ac8",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/012-en.pt",
+        "path_type": "hardlink",
+        "sha256": "427847a773fbc893a2ccb6c62672b7b7dfb174c3db763c0f817d3905d6da0f7f",
+        "sha256_in_prefix": "427847a773fbc893a2ccb6c62672b7b7dfb174c3db763c0f817d3905d6da0f7f",
+        "size_in_bytes": 497
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/012.pt",
+        "path_type": "hardlink",
+        "sha256": "124194a731fba12dd683a036e36820a45048da480cd5d96ff5f6683a09810999",
+        "sha256_in_prefix": "124194a731fba12dd683a036e36820a45048da480cd5d96ff5f6683a09810999",
+        "size_in_bytes": 269
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/013.pt",
+        "path_type": "hardlink",
+        "sha256": "b0e9a45aa5aa7c775bb3879e7616e339e9f27d8f52ecde8d324b66f382de437b",
+        "sha256_in_prefix": "b0e9a45aa5aa7c775bb3879e7616e339e9f27d8f52ecde8d324b66f382de437b",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/014.pt",
+        "path_type": "hardlink",
+        "sha256": "0510a6302a71abb60733d28e668c90da7a894b65e64d91227ddae2a7675ff59f",
+        "sha256_in_prefix": "0510a6302a71abb60733d28e668c90da7a894b65e64d91227ddae2a7675ff59f",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/015-en.pt",
+        "path_type": "hardlink",
+        "sha256": "78981e920708f7e7b2737c85a16e0281d0c154701ff3787d3d69a43d7f435605",
+        "sha256_in_prefix": "78981e920708f7e7b2737c85a16e0281d0c154701ff3787d3d69a43d7f435605",
+        "size_in_bytes": 179
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/015.pt",
+        "path_type": "hardlink",
+        "sha256": "b89b2186bbbf0de592a5f3a0a0f3da948b10a0c040697481e0c7e9171d3d7a9d",
+        "sha256_in_prefix": "b89b2186bbbf0de592a5f3a0a0f3da948b10a0c040697481e0c7e9171d3d7a9d",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/016-en.pt",
+        "path_type": "hardlink",
+        "sha256": "7d6215f1a6c67d088de1d5d0fcc87cc2fc51adb97fb4bcb0d9606f785109681f",
+        "sha256_in_prefix": "7d6215f1a6c67d088de1d5d0fcc87cc2fc51adb97fb4bcb0d9606f785109681f",
+        "size_in_bytes": 379
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/016.pt",
+        "path_type": "hardlink",
+        "sha256": "9207f555b3ed46f83ebcc243cead75bc8289cfbef6e4715253a7f2da2bc62661",
+        "sha256_in_prefix": "9207f555b3ed46f83ebcc243cead75bc8289cfbef6e4715253a7f2da2bc62661",
+        "size_in_bytes": 186
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/017.pt",
+        "path_type": "hardlink",
+        "sha256": "c8c3b68d08666c21eff53e457a05edf6f7ca74c6c772a5d9d21d06a095070649",
+        "sha256_in_prefix": "c8c3b68d08666c21eff53e457a05edf6f7ca74c6c772a5d9d21d06a095070649",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/018-en.pt",
+        "path_type": "hardlink",
+        "sha256": "9559f04a78e1c6c1210219ea003b1e9e200db8df2da46de34672a00b8d9bdd3d",
+        "sha256_in_prefix": "9559f04a78e1c6c1210219ea003b1e9e200db8df2da46de34672a00b8d9bdd3d",
+        "size_in_bytes": 177
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/018.pt",
+        "path_type": "hardlink",
+        "sha256": "4c18454c68cef9f7d4466ffbd99579ded9ce83fe45db437380cd461574fc659b",
+        "sha256_in_prefix": "4c18454c68cef9f7d4466ffbd99579ded9ce83fe45db437380cd461574fc659b",
+        "size_in_bytes": 65
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/019.pt",
+        "path_type": "hardlink",
+        "sha256": "5a4b236ea2a64fc55239dbdee8ada2b581e0bb1f26f59789233a0d927259a602",
+        "sha256_in_prefix": "5a4b236ea2a64fc55239dbdee8ada2b581e0bb1f26f59789233a0d927259a602",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/020.pt",
+        "path_type": "hardlink",
+        "sha256": "0191564a7e9ffc4f2fd08e92add749e3691445d6f556a8c017d5aafd6575b6bc",
+        "sha256_in_prefix": "0191564a7e9ffc4f2fd08e92add749e3691445d6f556a8c017d5aafd6575b6bc",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/021-en.pt",
+        "path_type": "hardlink",
+        "sha256": "04f35179005f2739fe550acaaabc9d54267b03c87f4e359eb3364127df199319",
+        "sha256_in_prefix": "04f35179005f2739fe550acaaabc9d54267b03c87f4e359eb3364127df199319",
+        "size_in_bytes": 414
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/021.pt",
+        "path_type": "hardlink",
+        "sha256": "4260712c6f0567aee927dfa4868561064b0674dd4204104ff2860f3e4c80b7be",
+        "sha256_in_prefix": "4260712c6f0567aee927dfa4868561064b0674dd4204104ff2860f3e4c80b7be",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/022.pt",
+        "path_type": "hardlink",
+        "sha256": "5bd5d2ba62c6a54ccdab72d4a6a04046e1685a8dcbd1c14208c30a6929319516",
+        "sha256_in_prefix": "5bd5d2ba62c6a54ccdab72d4a6a04046e1685a8dcbd1c14208c30a6929319516",
+        "size_in_bytes": 179
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/023.pt",
+        "path_type": "hardlink",
+        "sha256": "968a52862a621380276316906e4f99b3400a81bac43ee35a872b26c6938d1971",
+        "sha256_in_prefix": "968a52862a621380276316906e4f99b3400a81bac43ee35a872b26c6938d1971",
+        "size_in_bytes": 55
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/024.pt",
+        "path_type": "hardlink",
+        "sha256": "6293d8a5984833d60c8adfba6fc29f95f432887dda3066e68411146db2b97121",
+        "sha256_in_prefix": "6293d8a5984833d60c8adfba6fc29f95f432887dda3066e68411146db2b97121",
+        "size_in_bytes": 77
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/025.pt",
+        "path_type": "hardlink",
+        "sha256": "a5ae9f8013a8dc991fe2cd6726373d09cea2c717ca6363c0ca3db9d12dcfd817",
+        "sha256_in_prefix": "a5ae9f8013a8dc991fe2cd6726373d09cea2c717ca6363c0ca3db9d12dcfd817",
+        "size_in_bytes": 243
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/026.pt",
+        "path_type": "hardlink",
+        "sha256": "8df44c4439d0a863bf01675053306ddc18612e498764f259dd2f9c55a32f6b2b",
+        "sha256_in_prefix": "8df44c4439d0a863bf01675053306ddc18612e498764f259dd2f9c55a32f6b2b",
+        "size_in_bytes": 347
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/027.pt",
+        "path_type": "hardlink",
+        "sha256": "4d723d752c7fe7fc772122acc5a606893d6def56272516ee7c23d3b110761629",
+        "sha256_in_prefix": "4d723d752c7fe7fc772122acc5a606893d6def56272516ee7c23d3b110761629",
+        "size_in_bytes": 179
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/028.pt",
+        "path_type": "hardlink",
+        "sha256": "43a819d482f8e1ae9824ebe485f7d41e4483dbf1da10f21249850a0cd99c1d90",
+        "sha256_in_prefix": "43a819d482f8e1ae9824ebe485f7d41e4483dbf1da10f21249850a0cd99c1d90",
+        "size_in_bytes": 126
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/029.pt",
+        "path_type": "hardlink",
+        "sha256": "fb8c429c45373b7b0f9415293d4d830ce3ef64f8a6a63b3f0b7d7aadb318b8d1",
+        "sha256_in_prefix": "fb8c429c45373b7b0f9415293d4d830ce3ef64f8a6a63b3f0b7d7aadb318b8d1",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/030.pt",
+        "path_type": "hardlink",
+        "sha256": "497ba0186d36adb9a31cfaa59dba0b097e14b1db383a467ffc8d54cfd2e6dbe2",
+        "sha256_in_prefix": "497ba0186d36adb9a31cfaa59dba0b097e14b1db383a467ffc8d54cfd2e6dbe2",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/031.pt",
+        "path_type": "hardlink",
+        "sha256": "1ff249dc37dedbf4598f6157e08cba66c1bf9f29c7d135ec3df90e3739de7074",
+        "sha256_in_prefix": "1ff249dc37dedbf4598f6157e08cba66c1bf9f29c7d135ec3df90e3739de7074",
+        "size_in_bytes": 71
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/032.pt",
+        "path_type": "hardlink",
+        "sha256": "1c796eb958893e9444b66c06c9194e765b4dd43b162a221df4a4a0f71ef12dc5",
+        "sha256_in_prefix": "1c796eb958893e9444b66c06c9194e765b4dd43b162a221df4a4a0f71ef12dc5",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/033.pt",
+        "path_type": "hardlink",
+        "sha256": "1c796eb958893e9444b66c06c9194e765b4dd43b162a221df4a4a0f71ef12dc5",
+        "sha256_in_prefix": "1c796eb958893e9444b66c06c9194e765b4dd43b162a221df4a4a0f71ef12dc5",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/034.pt",
+        "path_type": "hardlink",
+        "sha256": "1c796eb958893e9444b66c06c9194e765b4dd43b162a221df4a4a0f71ef12dc5",
+        "sha256_in_prefix": "1c796eb958893e9444b66c06c9194e765b4dd43b162a221df4a4a0f71ef12dc5",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/035.pt",
+        "path_type": "hardlink",
+        "sha256": "7ead40bf490733640a4294426ef5939b3ebbf4789ea27ab32426dc7fe9e3bc01",
+        "sha256_in_prefix": "7ead40bf490733640a4294426ef5939b3ebbf4789ea27ab32426dc7fe9e3bc01",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/036.pt",
+        "path_type": "hardlink",
+        "sha256": "d548d35df9da3ea1c9bb823281c53f217c23c65478dd6c6d9fb76c98afb005a7",
+        "sha256_in_prefix": "d548d35df9da3ea1c9bb823281c53f217c23c65478dd6c6d9fb76c98afb005a7",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/037.pt",
+        "path_type": "hardlink",
+        "sha256": "ec1b3064f54ee462a4b912bdaf0dc97bbb2a493b547db9f1f0f3ce2ead4d31a2",
+        "sha256_in_prefix": "ec1b3064f54ee462a4b912bdaf0dc97bbb2a493b547db9f1f0f3ce2ead4d31a2",
+        "size_in_bytes": 178
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/038.pt",
+        "path_type": "hardlink",
+        "sha256": "6d1198965c904fd79a43b7f0c16a7acd1d54f5c2bec8f927f2b3255c64e8a84a",
+        "sha256_in_prefix": "6d1198965c904fd79a43b7f0c16a7acd1d54f5c2bec8f927f2b3255c64e8a84a",
+        "size_in_bytes": 55
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/039.pt",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/040.pt",
+        "path_type": "hardlink",
+        "sha256": "17e521953c860ce6c12eac8569fd9f62ca3fa7907b4b46e7161a2cf013257ea2",
+        "sha256_in_prefix": "17e521953c860ce6c12eac8569fd9f62ca3fa7907b4b46e7161a2cf013257ea2",
+        "size_in_bytes": 458
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/041.pt",
+        "path_type": "hardlink",
+        "sha256": "65ef1d03784c0e72db4c319748a45dc4be502b4aba356c4068a8a6804e78e39f",
+        "sha256_in_prefix": "65ef1d03784c0e72db4c319748a45dc4be502b4aba356c4068a8a6804e78e39f",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/042.pt",
+        "path_type": "hardlink",
+        "sha256": "82a0c3e0dafe75f122942323fd060ec14ed91d495067265694bf84bf46478582",
+        "sha256_in_prefix": "82a0c3e0dafe75f122942323fd060ec14ed91d495067265694bf84bf46478582",
+        "size_in_bytes": 203
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/043.pt",
+        "path_type": "hardlink",
+        "sha256": "b9998b154532b5b4bb6bca12d625cb59c8b0a90080901bd241df482798ba3b34",
+        "sha256_in_prefix": "b9998b154532b5b4bb6bca12d625cb59c8b0a90080901bd241df482798ba3b34",
+        "size_in_bytes": 56
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/044.pt",
+        "path_type": "hardlink",
+        "sha256": "1bbe56d0fba0b8bc4a6d5d507292802dc89d43d262a53064c1e78781f222826d",
+        "sha256_in_prefix": "1bbe56d0fba0b8bc4a6d5d507292802dc89d43d262a53064c1e78781f222826d",
+        "size_in_bytes": 43
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/045.pt",
+        "path_type": "hardlink",
+        "sha256": "96a17d7c3ce24a4840c5176e55543c2f947c3d9a5a46063e01b7d8ae69b3b205",
+        "sha256_in_prefix": "96a17d7c3ce24a4840c5176e55543c2f947c3d9a5a46063e01b7d8ae69b3b205",
+        "size_in_bytes": 463
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/046.pt",
+        "path_type": "hardlink",
+        "sha256": "a76bbcda0555924c2f8ec6bd4fd158ef2c59e6822967933ae8945c12418a5228",
+        "sha256_in_prefix": "a76bbcda0555924c2f8ec6bd4fd158ef2c59e6822967933ae8945c12418a5228",
+        "size_in_bytes": 216
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/047.pt",
+        "path_type": "hardlink",
+        "sha256": "6f4e9fe628bc98b06fb2ecf3971b1bf6dc3e0b93634757d61093db00757b31f5",
+        "sha256_in_prefix": "6f4e9fe628bc98b06fb2ecf3971b1bf6dc3e0b93634757d61093db00757b31f5",
+        "size_in_bytes": 217
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/048.pt",
+        "path_type": "hardlink",
+        "sha256": "22ab6a0a351a1e029121a28ced63e1d97e3d391bb3eb95c7fc22e33a6801e5b8",
+        "sha256_in_prefix": "22ab6a0a351a1e029121a28ced63e1d97e3d391bb3eb95c7fc22e33a6801e5b8",
+        "size_in_bytes": 208
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/049.pt",
+        "path_type": "hardlink",
+        "sha256": "21cf4a3111e031b8185e2d5fe8823aa8f9301aaa1877239073ab20acecaf7879",
+        "sha256_in_prefix": "21cf4a3111e031b8185e2d5fe8823aa8f9301aaa1877239073ab20acecaf7879",
+        "size_in_bytes": 212
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/050.pt",
+        "path_type": "hardlink",
+        "sha256": "3b4cc95d22cf30b334d69393d03fa070750a98547261db99dd6f9a11146af69c",
+        "sha256_in_prefix": "3b4cc95d22cf30b334d69393d03fa070750a98547261db99dd6f9a11146af69c",
+        "size_in_bytes": 178
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/051.pt",
+        "path_type": "hardlink",
+        "sha256": "3b4cc95d22cf30b334d69393d03fa070750a98547261db99dd6f9a11146af69c",
+        "sha256_in_prefix": "3b4cc95d22cf30b334d69393d03fa070750a98547261db99dd6f9a11146af69c",
+        "size_in_bytes": 178
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/052.pt",
+        "path_type": "hardlink",
+        "sha256": "356e1e2b713d6f4b54a63fe67aa429dadf2926e9c526949cbdde5eadbb81f899",
+        "sha256_in_prefix": "356e1e2b713d6f4b54a63fe67aa429dadf2926e9c526949cbdde5eadbb81f899",
+        "size_in_bytes": 194
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/053.pt",
+        "path_type": "hardlink",
+        "sha256": "370bc10ce5d56617ebf6db74233d51167e6e6f04acbd7901ed38ffbead668b31",
+        "sha256_in_prefix": "370bc10ce5d56617ebf6db74233d51167e6e6f04acbd7901ed38ffbead668b31",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/054.pt",
+        "path_type": "hardlink",
+        "sha256": "ce2a9393ad68464878f6eab8078a3d007cfa710688ca9c2d9391d57b9a610b4f",
+        "sha256_in_prefix": "ce2a9393ad68464878f6eab8078a3d007cfa710688ca9c2d9391d57b9a610b4f",
+        "size_in_bytes": 34
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/055.pt",
+        "path_type": "hardlink",
+        "sha256": "6ec79d365d3159ea72bea2cb004dae86cdfd6857069ea1cf46878b34810a6a16",
+        "sha256_in_prefix": "6ec79d365d3159ea72bea2cb004dae86cdfd6857069ea1cf46878b34810a6a16",
+        "size_in_bytes": 25
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/056.pt",
+        "path_type": "hardlink",
+        "sha256": "9f8713bf72cb1b49af5b883ea9c611622a1b35cd103483a8ac7d74e0fc4afb0e",
+        "sha256_in_prefix": "9f8713bf72cb1b49af5b883ea9c611622a1b35cd103483a8ac7d74e0fc4afb0e",
+        "size_in_bytes": 55
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/057.pt",
+        "path_type": "hardlink",
+        "sha256": "9e860aa3e95925c9914926aeed9087176ea5656770da607efd5798330a05a999",
+        "sha256_in_prefix": "9e860aa3e95925c9914926aeed9087176ea5656770da607efd5798330a05a999",
+        "size_in_bytes": 53
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/058.pt",
+        "path_type": "hardlink",
+        "sha256": "696164a1a211cd8ebe1cb434fab573ca4fd26bda476dc82a913b9af72e34ffa0",
+        "sha256_in_prefix": "696164a1a211cd8ebe1cb434fab573ca4fd26bda476dc82a913b9af72e34ffa0",
+        "size_in_bytes": 295
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/059.pt",
+        "path_type": "hardlink",
+        "sha256": "1ef7ef69074206b750a225e65052c3bc055e686ca98986b7772fe8e963ffb16a",
+        "sha256_in_prefix": "1ef7ef69074206b750a225e65052c3bc055e686ca98986b7772fe8e963ffb16a",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/060.pt",
+        "path_type": "hardlink",
+        "sha256": "8b069f24952aa32c47b3112e52504882671381d72a1a611d8273ad87471639f7",
+        "sha256_in_prefix": "8b069f24952aa32c47b3112e52504882671381d72a1a611d8273ad87471639f7",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/061.pt",
+        "path_type": "hardlink",
+        "sha256": "afd37e8494da0a8bdd392e7b2117a9b045c4af9ea51d3ed6236bfe27cf29ae0f",
+        "sha256_in_prefix": "afd37e8494da0a8bdd392e7b2117a9b045c4af9ea51d3ed6236bfe27cf29ae0f",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/062.pt",
+        "path_type": "hardlink",
+        "sha256": "d7886f28b4842a0e3d22d5b3b55505af172868556eefe7dc8e0396e83d11c049",
+        "sha256_in_prefix": "d7886f28b4842a0e3d22d5b3b55505af172868556eefe7dc8e0396e83d11c049",
+        "size_in_bytes": 282
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/063.pt",
+        "path_type": "hardlink",
+        "sha256": "07b62c8e841a09929c9614a1a51f8d334150f9408ed8027319226a6700bf521c",
+        "sha256_in_prefix": "07b62c8e841a09929c9614a1a51f8d334150f9408ed8027319226a6700bf521c",
+        "size_in_bytes": 16
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/064.pt",
+        "path_type": "hardlink",
+        "sha256": "2ae5f9e99e9b9da9380b66e1498b4ec5d2cb9846f69a593e39fc8759d82e043d",
+        "sha256_in_prefix": "2ae5f9e99e9b9da9380b66e1498b4ec5d2cb9846f69a593e39fc8759d82e043d",
+        "size_in_bytes": 41
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/065.pt",
+        "path_type": "hardlink",
+        "sha256": "b8ac4d255aed622a56e1b82001575183452fbee5a4518f30b59bebdaacca69d0",
+        "sha256_in_prefix": "b8ac4d255aed622a56e1b82001575183452fbee5a4518f30b59bebdaacca69d0",
+        "size_in_bytes": 170
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/066.pt",
+        "path_type": "hardlink",
+        "sha256": "c2698f696e53b2461bfacffb33f2c8521f9846ac0d93087ab391edc344a0e124",
+        "sha256_in_prefix": "c2698f696e53b2461bfacffb33f2c8521f9846ac0d93087ab391edc344a0e124",
+        "size_in_bytes": 51
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/067.pt",
+        "path_type": "hardlink",
+        "sha256": "feead08a942ca0ad04ccc88eb1a0a2f9aa03322cb4b35c6388f54ae4d7e6d290",
+        "sha256_in_prefix": "feead08a942ca0ad04ccc88eb1a0a2f9aa03322cb4b35c6388f54ae4d7e6d290",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/068.pt",
+        "path_type": "hardlink",
+        "sha256": "98d4d0acc9faa2b4e97bbc672f10b3646fe676f6131e0bc051a0f32646a1d7fb",
+        "sha256_in_prefix": "98d4d0acc9faa2b4e97bbc672f10b3646fe676f6131e0bc051a0f32646a1d7fb",
+        "size_in_bytes": 172
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/069-en.pt",
+        "path_type": "hardlink",
+        "sha256": "9ca79a82214bb208fe8c3f7836f9c07012b071a5ca93ffbf752f98a65b19160c",
+        "sha256_in_prefix": "9ca79a82214bb208fe8c3f7836f9c07012b071a5ca93ffbf752f98a65b19160c",
+        "size_in_bytes": 228
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/069.pt",
+        "path_type": "hardlink",
+        "sha256": "f1508e15fd5a65d53d4d76686c253208cc71844878afe7c175c0f98fd0cf4e65",
+        "sha256_in_prefix": "f1508e15fd5a65d53d4d76686c253208cc71844878afe7c175c0f98fd0cf4e65",
+        "size_in_bytes": 177
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/070-en.pt",
+        "path_type": "hardlink",
+        "sha256": "9ca79a82214bb208fe8c3f7836f9c07012b071a5ca93ffbf752f98a65b19160c",
+        "sha256_in_prefix": "9ca79a82214bb208fe8c3f7836f9c07012b071a5ca93ffbf752f98a65b19160c",
+        "size_in_bytes": 228
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/070.pt",
+        "path_type": "hardlink",
+        "sha256": "f1508e15fd5a65d53d4d76686c253208cc71844878afe7c175c0f98fd0cf4e65",
+        "sha256_in_prefix": "f1508e15fd5a65d53d4d76686c253208cc71844878afe7c175c0f98fd0cf4e65",
+        "size_in_bytes": 177
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/071.pt",
+        "path_type": "hardlink",
+        "sha256": "07d3b09a35a3f47480dd0ce5ee7502ab7a1dbb7858bf4cabd1979dbf7e1d198e",
+        "sha256_in_prefix": "07d3b09a35a3f47480dd0ce5ee7502ab7a1dbb7858bf4cabd1979dbf7e1d198e",
+        "size_in_bytes": 312
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/072.pt",
+        "path_type": "hardlink",
+        "sha256": "45d15e9391f3a15f6f47ad77fe9ce71f67fc0f5a832ce69ef4720b1f6a09d135",
+        "sha256_in_prefix": "45d15e9391f3a15f6f47ad77fe9ce71f67fc0f5a832ce69ef4720b1f6a09d135",
+        "size_in_bytes": 316
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/073.pt",
+        "path_type": "hardlink",
+        "sha256": "b8024631f8fcd9041dfef3b4ba42b8302dceae174daeb8042a06def58c31487d",
+        "sha256_in_prefix": "b8024631f8fcd9041dfef3b4ba42b8302dceae174daeb8042a06def58c31487d",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/074.pt",
+        "path_type": "hardlink",
+        "sha256": "8e46eec86ba3c2b6a2990b5f13ec07c6b3f3e2f78f924e3444182ed5859faeca",
+        "sha256_in_prefix": "8e46eec86ba3c2b6a2990b5f13ec07c6b3f3e2f78f924e3444182ed5859faeca",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/075.pt",
+        "path_type": "hardlink",
+        "sha256": "cd24ebf0e851e61cd84f25726593878f344c6084a72b0ca62f43d99cdf89912a",
+        "sha256_in_prefix": "cd24ebf0e851e61cd84f25726593878f344c6084a72b0ca62f43d99cdf89912a",
+        "size_in_bytes": 176
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/076.pt",
+        "path_type": "hardlink",
+        "sha256": "56a78e52297f70f1be93ddb53b8738aa75e6ff76d40c4f6e41afda47bbdb4776",
+        "sha256_in_prefix": "56a78e52297f70f1be93ddb53b8738aa75e6ff76d40c4f6e41afda47bbdb4776",
+        "size_in_bytes": 205
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/077-en.pt",
+        "path_type": "hardlink",
+        "sha256": "bb7d9608d62a61837c9c9a0b8a6376a84648179245009d137535323908b2b3dc",
+        "sha256_in_prefix": "bb7d9608d62a61837c9c9a0b8a6376a84648179245009d137535323908b2b3dc",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/077.pt",
+        "path_type": "hardlink",
+        "sha256": "ee3a91d01595ccbd3e44b28f7bf0ad6fb87ea0858adcdb3d102c5837ce373198",
+        "sha256_in_prefix": "ee3a91d01595ccbd3e44b28f7bf0ad6fb87ea0858adcdb3d102c5837ce373198",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/078.pt",
+        "path_type": "hardlink",
+        "sha256": "01308304a500b4494d77d5ce236e94fc97724e637eedf055e7d67cce0faf9575",
+        "sha256_in_prefix": "01308304a500b4494d77d5ce236e94fc97724e637eedf055e7d67cce0faf9575",
+        "size_in_bytes": 283
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/079-en.pt",
+        "path_type": "hardlink",
+        "sha256": "e95804a28e6a5e77ac7a64495cfaadb68f693d278535ec7926e52b19b75389fe",
+        "sha256_in_prefix": "e95804a28e6a5e77ac7a64495cfaadb68f693d278535ec7926e52b19b75389fe",
+        "size_in_bytes": 571
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/079.pt",
+        "path_type": "hardlink",
+        "sha256": "d7150084e5af99e24d2e3d6dd1094f1a80be3dd0c5b11d63ba4b4a93a62d0b39",
+        "sha256_in_prefix": "d7150084e5af99e24d2e3d6dd1094f1a80be3dd0c5b11d63ba4b4a93a62d0b39",
+        "size_in_bytes": 321
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/080.pt",
+        "path_type": "hardlink",
+        "sha256": "9be94cff0a6ca25e94c1b0e5236a74136747eefd31aa469f5a77630e51b1d319",
+        "sha256_in_prefix": "9be94cff0a6ca25e94c1b0e5236a74136747eefd31aa469f5a77630e51b1d319",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/081.pt",
+        "path_type": "hardlink",
+        "sha256": "7c8ef1d333e7a31978f2f7b01e16f11a4da0352c974eda72d6fb46a51f3f3633",
+        "sha256_in_prefix": "7c8ef1d333e7a31978f2f7b01e16f11a4da0352c974eda72d6fb46a51f3f3633",
+        "size_in_bytes": 50
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/082.pt",
+        "path_type": "hardlink",
+        "sha256": "7c8ef1d333e7a31978f2f7b01e16f11a4da0352c974eda72d6fb46a51f3f3633",
+        "sha256_in_prefix": "7c8ef1d333e7a31978f2f7b01e16f11a4da0352c974eda72d6fb46a51f3f3633",
+        "size_in_bytes": 50
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/083.pt",
+        "path_type": "hardlink",
+        "sha256": "bd0e0bd938bb1c2fef2f8c4d179f4886a97808c1e32c4f083cc927130fbe450f",
+        "sha256_in_prefix": "bd0e0bd938bb1c2fef2f8c4d179f4886a97808c1e32c4f083cc927130fbe450f",
+        "size_in_bytes": 187
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/084.pt",
+        "path_type": "hardlink",
+        "sha256": "ab2f5ef6452d674206df2051f8f2eb6a970980240e22500b0b69330be319b5e8",
+        "sha256_in_prefix": "ab2f5ef6452d674206df2051f8f2eb6a970980240e22500b0b69330be319b5e8",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/085-en.pt",
+        "path_type": "hardlink",
+        "sha256": "b77e9f2a59a2e2140ac106e618282d8d6947841ba64fced726ac97f308f557c5",
+        "sha256_in_prefix": "b77e9f2a59a2e2140ac106e618282d8d6947841ba64fced726ac97f308f557c5",
+        "size_in_bytes": 288
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/085.pt",
+        "path_type": "hardlink",
+        "sha256": "990c39856c33912353a9567ef303f7c38adad6328dce5eb2b0a7aca224831206",
+        "sha256_in_prefix": "990c39856c33912353a9567ef303f7c38adad6328dce5eb2b0a7aca224831206",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/086.pt",
+        "path_type": "hardlink",
+        "sha256": "4e6eef992625c67f1f7f45281fa13cd115f3f683c3c976fb5063c6b86b1361b2",
+        "sha256_in_prefix": "4e6eef992625c67f1f7f45281fa13cd115f3f683c3c976fb5063c6b86b1361b2",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/087.pt",
+        "path_type": "hardlink",
+        "sha256": "6498225c5362028013a4c86f040e70103613deab244e5113fbd24b2a83d612a8",
+        "sha256_in_prefix": "6498225c5362028013a4c86f040e70103613deab244e5113fbd24b2a83d612a8",
+        "size_in_bytes": 215
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/088.pt",
+        "path_type": "hardlink",
+        "sha256": "c684753b5936e93d36aebbab9863bc921ab6d17ecdb0cf00900fa2a95990c215",
+        "sha256_in_prefix": "c684753b5936e93d36aebbab9863bc921ab6d17ecdb0cf00900fa2a95990c215",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/089.pt",
+        "path_type": "hardlink",
+        "sha256": "7c8ef1d333e7a31978f2f7b01e16f11a4da0352c974eda72d6fb46a51f3f3633",
+        "sha256_in_prefix": "7c8ef1d333e7a31978f2f7b01e16f11a4da0352c974eda72d6fb46a51f3f3633",
+        "size_in_bytes": 50
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/090.pt",
+        "path_type": "hardlink",
+        "sha256": "3c3b102e77b5de85b8549ff407008f8ff74faaf305122f03c8a5e4c51cc236c3",
+        "sha256_in_prefix": "3c3b102e77b5de85b8549ff407008f8ff74faaf305122f03c8a5e4c51cc236c3",
+        "size_in_bytes": 266
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/091.pt",
+        "path_type": "hardlink",
+        "sha256": "c667ed8a4194cbf00219548ab496d9889fcc3032b443a41b2dff7af3ce33063e",
+        "sha256_in_prefix": "c667ed8a4194cbf00219548ab496d9889fcc3032b443a41b2dff7af3ce33063e",
+        "size_in_bytes": 35
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/101.html",
+        "path_type": "hardlink",
+        "sha256": "6e1cf77ba7144377e2275e44948385c017fd71ac5c4cbc97ee0f53710cc745da",
+        "sha256_in_prefix": "6e1cf77ba7144377e2275e44948385c017fd71ac5c4cbc97ee0f53710cc745da",
+        "size_in_bytes": 67
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/102.html",
+        "path_type": "hardlink",
+        "sha256": "9c78dbc7cea1dfc848436e223a1714aebdf78f6c935861f5646cde10d36faa17",
+        "sha256_in_prefix": "9c78dbc7cea1dfc848436e223a1714aebdf78f6c935861f5646cde10d36faa17",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/103.html",
+        "path_type": "hardlink",
+        "sha256": "3bc0d6a7642a6633034ca0231caf6468033ccc201d1fac7ac17079c535129e55",
+        "sha256_in_prefix": "3bc0d6a7642a6633034ca0231caf6468033ccc201d1fac7ac17079c535129e55",
+        "size_in_bytes": 208
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/120-en.pt",
+        "path_type": "hardlink",
+        "sha256": "1028664a2f7929115e7bcc1f90c9115b5ac70dc3ddc044b1252922b7c3f7daa3",
+        "sha256_in_prefix": "1028664a2f7929115e7bcc1f90c9115b5ac70dc3ddc044b1252922b7c3f7daa3",
+        "size_in_bytes": 301
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/120.pt",
+        "path_type": "hardlink",
+        "sha256": "9e75b54d14c4e20e37d9798547d4e90d6bc568a9785e69e5425e43a53add93ec",
+        "sha256_in_prefix": "9e75b54d14c4e20e37d9798547d4e90d6bc568a9785e69e5425e43a53add93ec",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/121.pt",
+        "path_type": "hardlink",
+        "sha256": "0348dc6a3d66c97e70fa6b0f098d15fd17f4da13ba3aa4f0ba0a46ebc7e3f2ec",
+        "sha256_in_prefix": "0348dc6a3d66c97e70fa6b0f098d15fd17f4da13ba3aa4f0ba0a46ebc7e3f2ec",
+        "size_in_bytes": 60
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/122.pt",
+        "path_type": "hardlink",
+        "sha256": "13908244adf2916b61afcc20c6b52af2d012dd9b1f4046d8870551658f83cb89",
+        "sha256_in_prefix": "13908244adf2916b61afcc20c6b52af2d012dd9b1f4046d8870551658f83cb89",
+        "size_in_bytes": 168
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/123.pt",
+        "path_type": "hardlink",
+        "sha256": "83838a2a493cd6450831a06f7a928b11f91da389698b3e4353cc9fd6f16a05d4",
+        "sha256_in_prefix": "83838a2a493cd6450831a06f7a928b11f91da389698b3e4353cc9fd6f16a05d4",
+        "size_in_bytes": 72
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/124-en.pt",
+        "path_type": "hardlink",
+        "sha256": "5d0bc654a8e5787888ab980a4158d975e0d5a29753735f802388ec24466912f1",
+        "sha256_in_prefix": "5d0bc654a8e5787888ab980a4158d975e0d5a29753735f802388ec24466912f1",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/124.pt",
+        "path_type": "hardlink",
+        "sha256": "f0b925e483a6debfc9d03fc41fa2fa84edb081fee1d01e402dfacf0da78e899f",
+        "sha256_in_prefix": "f0b925e483a6debfc9d03fc41fa2fa84edb081fee1d01e402dfacf0da78e899f",
+        "size_in_bytes": 127
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/125.pt",
+        "path_type": "hardlink",
+        "sha256": "c13edd0460239c1016e80033b18be5412a466a67ed7e1552061c2272c79fb272",
+        "sha256_in_prefix": "c13edd0460239c1016e80033b18be5412a466a67ed7e1552061c2272c79fb272",
+        "size_in_bytes": 141
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/126.pt",
+        "path_type": "hardlink",
+        "sha256": "c80a905e64919a7c630f90a775ce1e5baff5742126b2730e108456891af06ab8",
+        "sha256_in_prefix": "c80a905e64919a7c630f90a775ce1e5baff5742126b2730e108456891af06ab8",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/238.pt",
+        "path_type": "hardlink",
+        "sha256": "e51cd69f907cf46c8c73c7f251854322d8e4f00d9d3f320b9ee984b7d8b36d59",
+        "sha256_in_prefix": "e51cd69f907cf46c8c73c7f251854322d8e4f00d9d3f320b9ee984b7d8b36d59",
+        "size_in_bytes": 34
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/greeting.pt",
+        "path_type": "hardlink",
+        "sha256": "71ad789a0adb5b8c559fcc68efa14fc07a9d0f1b9a4f15b79cba2fdd5f91dc3c",
+        "sha256_in_prefix": "71ad789a0adb5b8c559fcc68efa14fc07a9d0f1b9a4f15b79cba2fdd5f91dc3c",
+        "size_in_bytes": 29
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/hello_world.pt",
+        "path_type": "hardlink",
+        "sha256": "7c8ef1d333e7a31978f2f7b01e16f11a4da0352c974eda72d6fb46a51f3f3633",
+        "sha256_in_prefix": "7c8ef1d333e7a31978f2f7b01e16f11a4da0352c974eda72d6fb46a51f3f3633",
+        "size_in_bytes": 50
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/hello_world.txt",
+        "path_type": "hardlink",
+        "sha256": "0ba904eae8773b70c75333db4de2f3ac45a8ad4ddba1b242f0b3cfc199391dd8",
+        "sha256_in_prefix": "0ba904eae8773b70c75333db4de2f3ac45a8ad4ddba1b242f0b3cfc199391dd8",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/multinode-en.pt",
+        "path_type": "hardlink",
+        "sha256": "d783f2b0b94cecefdc1abb1f6052629e626701908971c58e4a27f8db5223871e",
+        "sha256_in_prefix": "d783f2b0b94cecefdc1abb1f6052629e626701908971c58e4a27f8db5223871e",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "site-packages/chameleon/tests/outputs/multinode.pt",
+        "path_type": "hardlink",
+        "sha256": "a56fc06226dbb6e8205dff4aa03fb4eca27532b20daf7a5c09a84d49987f579e",
+        "sha256_in_prefix": "a56fc06226dbb6e8205dff4aa03fb4eca27532b20daf7a5c09a84d49987f579e",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "site-packages/chameleon/tests/test_doctests.py",
+        "path_type": "hardlink",
+        "sha256": "94780c7cf38dd563930bab03a9ddec73eb8dc83c7b5180d6df9ab6c4531151c7",
+        "sha256_in_prefix": "94780c7cf38dd563930bab03a9ddec73eb8dc83c7b5180d6df9ab6c4531151c7",
+        "size_in_bytes": 1019
+      },
+      {
+        "_path": "site-packages/chameleon/tests/test_exc.py",
+        "path_type": "hardlink",
+        "sha256": "4d50476b7348750c132d9722ee930fe838810edc1a373643855dd93cce854338",
+        "sha256_in_prefix": "4d50476b7348750c132d9722ee930fe838810edc1a373643855dd93cce854338",
+        "size_in_bytes": 516
+      },
+      {
+        "_path": "site-packages/chameleon/tests/test_loader.py",
+        "path_type": "hardlink",
+        "sha256": "89487aa0121540faa1be04d417e1a30abc2761cf8b6bf23aac8c5222ff457686",
+        "sha256_in_prefix": "89487aa0121540faa1be04d417e1a30abc2761cf8b6bf23aac8c5222ff457686",
+        "size_in_bytes": 3743
+      },
+      {
+        "_path": "site-packages/chameleon/tests/test_parser.py",
+        "path_type": "hardlink",
+        "sha256": "014e872b5b2d08d5dcfc4f9ab1fe89c63aa80b822bc74d5830bc7c61f2516e12",
+        "sha256_in_prefix": "014e872b5b2d08d5dcfc4f9ab1fe89c63aa80b822bc74d5830bc7c61f2516e12",
+        "size_in_bytes": 3411
+      },
+      {
+        "_path": "site-packages/chameleon/tests/test_sniffing.py",
+        "path_type": "hardlink",
+        "sha256": "68dcd92a31edafcea20371e2e67e0651ba8c5baac3f6363cd8cd33af4a71086b",
+        "sha256_in_prefix": "68dcd92a31edafcea20371e2e67e0651ba8c5baac3f6363cd8cd33af4a71086b",
+        "size_in_bytes": 3998
+      },
+      {
+        "_path": "site-packages/chameleon/tests/test_templates.py",
+        "path_type": "hardlink",
+        "sha256": "ea020f784e5b35883075b0d1823ca531c772d5accdff52855147886793b5d132",
+        "sha256_in_prefix": "ea020f784e5b35883075b0d1823ca531c772d5accdff52855147886793b5d132",
+        "size_in_bytes": 26062
+      },
+      {
+        "_path": "site-packages/chameleon/tests/test_tokenizer.py",
+        "path_type": "hardlink",
+        "sha256": "7a93c2bc41a75da98ee47eb8b160debc32fdbebf19add06630a5b4f06c61f334",
+        "sha256_in_prefix": "7a93c2bc41a75da98ee47eb8b160debc32fdbebf19add06630a5b4f06c61f334",
+        "size_in_bytes": 1474
+      },
+      {
+        "_path": "site-packages/chameleon/tokenize.py",
+        "path_type": "hardlink",
+        "sha256": "b8556152b1171dba833a858fca3fb6c187ba5ca8740d81663bed99949307cd40",
+        "sha256_in_prefix": "b8556152b1171dba833a858fca3fb6c187ba5ca8740d81663bed99949307cd40",
+        "size_in_bytes": 4295
+      },
+      {
+        "_path": "site-packages/chameleon/utils.py",
+        "path_type": "hardlink",
+        "sha256": "d2cdeb30dc41b4c3054c959d0fc1e12445aeb48810266c820cc94c6112a57818",
+        "sha256_in_prefix": "d2cdeb30dc41b4c3054c959d0fc1e12445aeb48810266c820cc94c6112a57818",
+        "size_in_bytes": 10246
+      },
+      {
+        "_path": "site-packages/chameleon/zpt/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "32c4858e22cc2c967b42150fa550562a2c839c2cebcaab91cabdf6f4da020022",
+        "sha256_in_prefix": "32c4858e22cc2c967b42150fa550562a2c839c2cebcaab91cabdf6f4da020022",
+        "size_in_bytes": 2
+      },
+      {
+        "_path": "site-packages/chameleon/zpt/loader.py",
+        "path_type": "hardlink",
+        "sha256": "63ccc8f6117cf4e0983888cff15c8ef97d8185cb61305d56205d685b1ba3a8be",
+        "sha256_in_prefix": "63ccc8f6117cf4e0983888cff15c8ef97d8185cb61305d56205d685b1ba3a8be",
+        "size_in_bytes": 842
+      },
+      {
+        "_path": "site-packages/chameleon/zpt/program.py",
+        "path_type": "hardlink",
+        "sha256": "f2914c417cfbf4c9a394570a0824ca0d05b0c2f5f121ff3e65a561f30f762f32",
+        "sha256_in_prefix": "f2914c417cfbf4c9a394570a0824ca0d05b0c2f5f121ff3e65a561f30f762f32",
+        "size_in_bytes": 27024
+      },
+      {
+        "_path": "site-packages/chameleon/zpt/template.py",
+        "path_type": "hardlink",
+        "sha256": "cc155ff6f89cc09b038094bcc05bdf812c85f8751961bb9eeb6d160853ff3855",
+        "sha256_in_prefix": "cc155ff6f89cc09b038094bcc05bdf812c85f8751961bb9eeb6d160853ff3855",
+        "size_in_bytes": 13781
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/ast25.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/astutil.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/benchmark.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/codegen.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/compiler.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/config.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/exc.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/i18n.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/interfaces.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/loader.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/metal.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/namespaces.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/nodes.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/parser.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/program.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/py25.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/py26.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/tal.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/tales.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/template.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/tests/__pycache__/test_doctests.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/tests/__pycache__/test_exc.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/tests/__pycache__/test_loader.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/tests/__pycache__/test_parser.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/tests/__pycache__/test_sniffing.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/tests/__pycache__/test_templates.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/tests/__pycache__/test_tokenizer.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/tokenize.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/__pycache__/utils.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/zpt/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/zpt/__pycache__/loader.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/zpt/__pycache__/program.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/chameleon/zpt/__pycache__/template.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "chameleon",
+  "sha256": "a1335c90f4a0046f7573796be1b180f378da3912db7fed324282dcfd8647343e",
+  "size": 115498,
+  "subdir": "noarch",
+  "timestamp": 1630675042702,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/chameleon-3.6.2-pyhd3eb1b0_0.conda",
+  "version": "3.6.2"
+}
